@@ -1,0 +1,201 @@
+/* Logo */
+.logo {
+
+}
+
+/* Main Blog Carousel Image */
+.main-blog-carousel-link img {
+  width: 387px;
+  height: 216px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ZK IMAGE*/
+
+.main-zk-column-right-top-image img, .main-zk-column-right-bottom-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/*CURRENCY EXCHANGE ICON*/
+
+#main-currency-exchange .main-banner-column-content-bottom-text img {
+  margin-right: 14px;
+}
+
+/*RENTAL OF SAFES*/
+
+#main-rental-of-safes .main-banner-column-image .main-banner-column-image-item,
+#main-legal-entities-and-individual-entrepreneurs .main-banner-column-image .main-banner-column-image-item,
+#main-foreign-economic-activity-for-business-banner .main-banner-column-image .main-banner-column-image-item,
+#main-opening-loro-accounts-banner .main-banner-column-image .main-banner-column-image-item,
+#main-internet-bank-banner .main-banner-column-image .main-banner-column-image-item,
+#main-blog-banner .main-banner-column-image .main-banner-column-image-item,
+#main-service-payments .main-banner-column-image .main-banner-column-image-item
+{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-dimensions-selection-form-column-left-image-block-image {
+  width: 100%;
+  height: 134px;
+  object-fit: cover;
+}
+
+.main-dimensions-selection-form-column-left-image-block .main-dimensions-selection-form-column-left-image-block-check-block-image {
+  border-radius: 50%;
+  padding: 5px;
+  background: rgba(45, 45, 45, 0.67);
+  box-shadow: 0px 27px 80px rgba(0, 0, 0, 0.07), 0px 6.0308px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.79553px 5.32008px rgba(0, 0, 0, 0.0282725);
+  transition: all 0.5s;
+}
+
+.main-dimensions-selection-form-column-left-image-block.active .main-dimensions-selection-form-column-left-image-block-check-block-image, .main-dimensions-selection-form-column-left-image-block:hover .main-dimensions-selection-form-column-left-image-block-check-block-image {
+  border-radius: 50%;
+  background: #3AAF45;
+  padding: 5px;
+  box-shadow: 0px 27px 80px rgba(0, 0, 0, 0.07), 0px 6.0308px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.79553px 5.32008px rgba(0, 0, 0, 0.0282725);
+}
+
+
+.main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image-block {
+  text-align: center;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image {
+  margin-top: -20%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#main-rental-of-cash-service-banner .main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image {
+  margin: auto;
+  width: 100%;
+  max-width: 315px;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-foreign-economic-activity-for-business-currency-control-column-content-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-foreign-economic-activity-for-business-conversion-operations-column img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.modal-content-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#main-escort-services-banner .main-banner-column-image-item{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-suspended-remote-banking-services-column-breadcrumbs-block-image{
+  margin: 0 12px 0 0;
+}
+
+.main-suspended-remote-banking-services-image-block{
+  width: 100%;
+  margin: 40px 0;
+
+  & img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.main-suspended-remote-banking-services-card-column-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-opening-loro-accounts-competitive-banking-service-column-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-internet-bank-how-to-connect-internet-bank-column-image{
+  width: 100%;
+  max-height: 167px;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-about-rnko-column-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.main-blog-column-image{
+  width: 100%;
+  max-height: 216px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.mobile-menu-logo{
+  z-index: 2;
+
+  & img{
+    width: 82px;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.mobile-zk-image{
+  justify-content: center;
+  margin: 0 0 52px 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+
+  & img{
+    max-width: 308px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.mobile-main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image-block{
+  display: none;
+
+  & img {
+    margin-top: -27%;
+    min-width: 269px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.main-dimensions-selection-form-column-image-block-image{
+  max-width: 185px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

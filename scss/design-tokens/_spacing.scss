@@ -1,0 +1,339 @@
+#main-services,
+#exchange-rates,
+#main-footer,
+#main-mobile-footer
+ {
+  max-width: 1442px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#main-header,
+#main-slider,
+#main-rko-banner,
+#main-transfers,
+#main-currency-exchange,
+#main-service-payments,
+#main-rental-of-safes,
+#main-legal-entities-and-individual-entrepreneurs,
+#main-foreign-economic-activity-for-business-banner,
+#main-escort-services-banner,
+#main-opening-loro-accounts-banner,
+#main-blog-banner,
+#main-internet-bank-banner,
+#mobile-menu
+{
+  padding: 0;
+  margin: 0 auto;
+}
+
+#main-slider .main-container {
+  padding: 85px 0 65px 0;
+}
+
+#main-header .main-container {
+  padding: 20px 0;
+}
+
+#main-zk,
+#main-us,
+#main-addition,
+#main-rko-services,
+#main-transfers-info,
+#main-service-payments-services,
+#main-rental-of-safes-advantages,
+#main-rental-of-cash-service,
+#main-foreign-economic-activity-for-business-currency-control,
+#main-foreign-economic-activity-for-business-conversion-operations,
+#main-legal-entities-and-individual-entrepreneurs-opening-account,
+#main-escort-services-first-aid-for-business,
+#main-escort-services-recommendations,
+#main-suspended-remote-banking-services,
+#main-opening-loro-accounts-competitive-banking-service,
+#main-opening-loro-accounts-documents-list,
+#main-internet-bank-description,
+#main-internet-bank-how-to-connect-internet-bank,
+#main-about-rnko,
+#main-about-rnko-what-do-we-offer,
+#main-blog,
+#main-contacts-form,
+#main-contacts-info
+{
+  max-width: 1442px;
+  margin: 0 auto;
+}
+
+#main-transfers {
+  padding-bottom: 0;
+}
+
+#main-slider {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-services {
+  margin-top: -100px;
+  gap: 16px;
+}
+
+#exchange-rates {
+  padding: 50px 15px!important;
+}
+
+.exchange-rates-title-block, .main-blog-title-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.exchange-rates-currency {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 12px;
+}
+
+.exchange-rates-currency-exchange {
+  margin-top: 16px;
+}
+
+.exchange-rates-currency-exchange-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px 0;
+}
+
+.exchange-rates-currency-exchange-items {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.exchange-rates-currency-exchange-items-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 11px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.main-blog-slider {
+  margin-top: 32px;
+}
+
+#main-blog-banner-index {
+  margin-bottom: 86px;
+}
+
+#main-footer {
+  padding: 32px 15px!important;
+}
+
+#main-mobile-footer {
+  padding: 32px 24px!important;
+}
+
+.main-footer-top {
+  margin-bottom: 32px;
+}
+
+.main-footer-bottom {
+  padding-top: 32px;
+}
+
+.main-title-block {
+  padding-top: 80px;
+}
+
+.main-rko-content {
+  width: 360px;
+  margin-top: 56px;
+}
+
+#main-rko-services,
+#main-service-payments-services,
+#main-rental-of-safes-advantages,
+#main-rental-of-cash-service {
+  padding-bottom: 80px!important;
+}
+
+#main-transfers .main-banner-column-content {
+  margin-bottom: 76px;
+}
+
+#main-transfers .main-banner-column-image {
+  margin-top: 30px;
+}
+
+.main-zk-documents-block {
+  margin: 56px 0 0 0;
+}
+
+#main-addition .main-title-block {
+  padding-top: 64px;
+  margin: 0;
+}
+
+#main-currency-exchange .main-banner-row,
+#main-service-payments .main-banner-row,
+#main-rental-of-safes .main-banner-row,
+#main-legal-entities-and-individual-entrepreneurs .main-banner-row,
+#main-foreign-economic-activity-for-business-banner .main-banner-row,
+{
+  height: 100%;
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+
+#main-currency-exchange .main-container,
+#main-service-payments .main-container,
+#main-rental-of-safes .main-container,
+#main-legal-entities-and-individual-entrepreneurs .main-container,
+#main-escort-services-banner .main-container {
+  height: 100%;
+}
+
+
+#main-transfers-info .main-title-block {
+  padding-top: 64px;
+}
+
+.main-currency-exchange-converter-sub-bottom-row {
+  margin-top: 14px;
+  justify-content: flex-start !important;
+}
+
+.main-currency-exchange-converter-text-row {
+  margin-top: 40px;
+}
+
+#main-dimensions-selection-form .main-title-block {
+  padding: 0 0 32px 0;
+}
+
+#main-dimensions-selection-form .main-container {
+  padding: 80px 0;
+}
+
+.main-dimensions-selection-form-column-left-row-bottom {
+  padding: 32px 40px 56px 40px !important;
+}
+
+.main-dimensions-selection-form-column-left-image-block {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.main-dimensions-selection-form-column-left-row.step-2 {
+  padding: 56px 0 0 0;
+}
+
+#main-legal-entities-and-individual-entrepreneurs-internet-banking .main-title-block,
+#main-rental-of-cash-service-banner .main-title-block {
+  padding: 0;
+}
+
+#main-legal-entities-and-individual-entrepreneurs-internet-banking .main-container,
+#main-rental-of-cash-service-banner .main-container {
+  padding: 0 0 80px 0;
+}
+
+#main-legal-entities-and-individual-entrepreneurs-opening-account .main-title-block,
+#main-foreign-economic-activity-for-business-opening-account .main-title-block {
+  padding: 0;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title:not(:last-child) {
+  margin: 0 0 16px 0;
+}
+
+.modal-content-item-block {
+  margin: 0 30px;
+}
+
+#main-escort-services-recommendations .main-container {
+  padding: 80px 0;
+}
+
+#main-rko-banner .main-banner-row,
+#main-currency-exchange .main-banner-row,
+#main-service-payments .main-banner-row,
+#main-rental-of-safes .main-banner-row,
+#main-legal-entities-and-individual-entrepreneurs .main-banner-row,
+#main-foreign-economic-activity-for-business-banner .main-banner-row,
+#main-escort-services-banner .main-banner-row,
+#main-opening-loro-accounts-banner .main-banner-row,
+#main-internet-bank-banner .main-banner-row,
+#main-blog-banner .main-banner-row
+{
+  padding: 85px 0 54px 0;
+  margin: 0;
+}
+
+#main-transfers .main-banner-row {
+  padding: 85px 0 0 0;
+  margin: 0;
+}
+
+#main-opening-loro-accounts-documents-list .main-title-block {
+  padding: 0;
+}
+
+#main-opening-loro-accounts-documents-list .main-container {
+  padding: 80px 0;
+}
+
+#main-internet-bank-how-to-connect-internet-bank .main-title-block {
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+#main-internet-bank-how-to-connect-internet-bank .main-container {
+  padding: 80px 0 0 0;
+}
+
+#main-about-rnko .main-title-block,
+#main-about-rnko-what-do-we-offer .main-title-block {
+  padding: 0;
+}
+
+#main-about-rnko .main-container {
+  padding: 80px 0;
+}
+
+#main-about-rnko-what-do-we-offer .main-container {
+  padding: 0 0 80px 0;
+}
+
+#main-blog .main-container,
+#main-contacts-form .main-container
+{
+  padding: 80px 0;
+}
+
+#main-contacts-info .main-container{
+  padding: 80px 0 0 0;
+}
+
+#main-blog .main-title-block,
+#main-contacts-form .main-title-block,
+#main-contacts-info .main-title-block{
+  padding: 0;
+  margin: 0;
+}

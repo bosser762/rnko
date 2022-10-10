@@ -1,0 +1,618 @@
+@use "../settings/global";
+
+.main-navbar-button {
+  position: absolute;
+  margin: 0 0 0 35px;
+  top: 70px;
+  background: #3BBE26;
+  border-radius: 8px;
+  width: 138px;
+  height: 32px;
+  text-align: center;
+  transition: all 3ms;
+}
+
+.main-navbar-button:hover {
+  box-sizing: border-box;
+  background: #319921;
+}
+
+.main-navbar-button a {
+  box-sizing: border-box!important;
+  margin: auto!important;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500 !important;
+  font-size: 14px!important;
+  line-height: 32px!important;
+  text-align: center!important;
+  color: #FFFFFF !important;
+  transition: text-shadow .3s;
+  -moz-transition: text-shadow .3s;
+  -webkit-transition: text-shadow .3s;
+  text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+  padding: 0!important;
+}
+
+.main-navbar-button a.main-navbar-button-link {
+  transition: none !important;
+  text-shadow: none !important;
+}
+
+.main-navbar ul li a.main-navbar-button-link {
+  line-height: 32px;
+}
+
+.slide-content-button, .main-banner-button {
+  background: #5052FE;
+  border-radius: 8px;
+  width: 138px;
+  height: 40px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.slide-content-button-link, .main-banner-button-link {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.slide-content-button-link:hover .slide-content-button,
+.main-banner-button-link:hover .main-banner-button,
+.main-dimensions-selection-form-column-image-block-button-link:hover .main-dimensions-selection-form-column-image-block-button {
+  background: #4648dc;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  transition: text-shadow .3s;
+  text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+}
+
+.main-services-button {
+  width: 138px;
+  height: 40px;
+  background: #F2F5F8;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+}
+
+.main-services-button-link {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: global.$blue-color1;
+}
+
+.main-services-button:hover {
+  box-sizing: border-box;
+  background: global.$blue-color1;
+}
+
+.main-services-button:hover .main-services-button-link {
+  box-sizing: border-box;
+  color: #ffffff;
+  transition: text-shadow .3s;
+  text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+}
+
+.exchange-rates-title-block-link, .main-blog-title-block-link {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline !important;
+  color: global.$blue-color1;
+
+  &:hover {
+    color: #6866c7 !important;
+  }
+}
+
+.main-blog-prev-arrow, .main-blog-next-arrow {
+  background: transparent;
+  border: none;
+}
+
+.main-footer-mail-title a, .main-footer-phone-title a {
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: left;
+  color: global.$black-color1;
+
+  &:hover {
+    color: global.$blue-color1;
+  }
+}
+
+.main-footer-map-link {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: left;
+  text-decoration: underline !important;
+  color: global.$blue-color1;
+
+  &:hover {
+    color: #6866c7;
+  }
+}
+
+.main-footer-column-link {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: global.$black-color1;
+
+  &:hover {
+    color: global.$blue-color1;
+  }
+}
+
+.main-navbar-main-list-sublist li.main-navbar-main-list-sublist-item a:hover, .main-navbar-main-list-sublist li.main-navbar-main-list-sublist-item a.active {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3BBE26;
+}
+
+.main-zk-documents-block-bottom-row-button-link .main-zk-documents-block-bottom-row-button {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  color: global.$blue-color1;
+}
+
+.main-zk-documents-block-bottom-row-button {
+  width: 91px;
+  height: 32px;
+  background: #F2F5F8;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+#main-opening-loro-accounts-documents-list .main-zk-documents-block-bottom-row-button {
+  background: #FFFFFF;
+}
+
+#main-opening-loro-accounts-documents-list .main-zk-documents-block-bottom-row-button-link:hover {
+  & .main-zk-documents-block-bottom-row-button {
+    background: global.$blue-color1;
+  }
+}
+
+.main-zk-documents-block-bottom-row-button-link:hover .main-zk-documents-block-bottom-row-button {
+  color: #FFFFFF;
+  background: global.$blue-color1;
+}
+
+.main-currency-exchange-converter-link {
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: global.$blue-color1;
+  border-bottom: 1px dashed #5052FE;
+  transition: all 0.3s;
+
+  &:hover, &.active {
+    border-bottom: 1px dashed transparent;
+    color: global.$black-color1;
+  }
+}
+
+.currency-button {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: transparent;
+}
+
+#select-currency, #select-currency-received {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+
+  & img {
+    margin-right: 10px;
+    object-fit: cover;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+  }
+}
+
+.main-dimensions-selection-form-column-image-block-button {
+  max-width: 217px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  background: global.$blue-color1;
+  border-radius: 8px;
+}
+
+.main-dimensions-selection-form-column-image-block-button-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-button-block a {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline !important;
+  color: global.$blue-color1;
+
+  &:hover {
+    color: #6866c7;
+  }
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-button-block-button {
+  width: 138px;
+  height: 40px;
+  background: #3AAF45;
+  border-radius: 8px;
+  border: none;
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: all 0.3s;
+
+  &:hover {
+    background: #319921;
+  }
+}
+
+.main-legal-entities-and-individual-entrepreneurs-internet-banking-column-button,
+.main-foreign-economic-activity-for-business-conversion-operations-column-button {
+  width: 138px;
+  height: 40px;
+  background: #5052FE;
+  border-radius: 8px;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-internet-banking-column-link,
+.main-foreign-economic-activity-for-business-conversion-operations-column-link {
+  text-decoration: none;
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  &:hover .main-legal-entities-and-individual-entrepreneurs-internet-banking-column-button,
+  &:hover .main-foreign-economic-activity-for-business-conversion-operations-column-button {
+    background: #6866c7;
+  }
+}
+
+.message-button {
+  width: 138px !important;
+  height: 40px;
+  background: #3AAF45;
+  border: none;
+  border-radius: 8px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+
+  &:hover {
+    background: #319921;
+  }
+}
+
+.main-escort-services-first-aid-for-business-column-content-link {
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: global.$blue-color1;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+
+  &:hover {
+    color: #FFFFFF;
+  }
+
+  &:hover .main-escort-services-first-aid-for-business-column-content-button {
+    background: global.$blue-color1;
+  }
+}
+
+.main-escort-services-recommendations-column-content-link {
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  color: global.$blue-color1;
+
+  &:hover {
+    color: #FFFFFF;
+  }
+
+  &:hover .main-escort-services-recommendations-column-content-button {
+    background: global.$blue-color1;
+  }
+}
+
+.main-escort-services-first-aid-for-business-column-content-button {
+  width: 138px;
+  height: 40px;
+  background: #F2F5F8;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+
+.main-escort-services-recommendations-column-content-button {
+  width: 91px;
+  height: 32px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+
+.main-suspended-remote-banking-services-card-column-button {
+  width: 138px;
+  height: 40px;
+  background: #F2F5F8;
+  border-radius: 8px;
+  transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+}
+
+.main-suspended-remote-banking-services-card-column-link {
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: global.$blue-color1;
+  transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+
+  &:hover {
+    color: #FFFFFF;
+  }
+
+  &:hover .main-suspended-remote-banking-services-card-column-button {
+    background: global.$blue-color1;
+  }
+}
+
+.main-blog-all-blogs-link {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline !important;
+  color: global.$blue-color1;
+
+  &:hover {
+    color: #000000;
+    text-decoration: none !important;
+  }
+}
+
+.main-suspended-remote-banking-services-column-breadcrumbs-link:hover p {
+  color: global.$blue-color1;
+}
+
+.main-contacts-info-column-link {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: left;
+  color: global.$black-color1;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+
+  &:hover {
+    color: global.$blue-color1;
+    text-decoration: underline !important;
+  }
+}
+
+.main-contacts-info-column-bottom-block-link {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  color: global.$black-color1;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+
+  &:hover {
+    color: global.$blue-color1;
+    text-decoration: underline !important;
+  }
+}
+
+.main-suspended-remote-banking-services-text a{
+  color: global.$blue-color1;
+  text-decoration: none;
+
+  &:hover{
+    color: #000000;
+  }
+}
+
+.mobile-menu-lang-link{
+  padding: 5px 8px;
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+
+  &.active, &:hover{
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 50%;
+  }
+}
+
+.mobile-menu-link {
+  padding: 0 0.5rem;
+  margin: 0 0.5rem 1.5rem 0.5rem;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  display: block;
+  transition: color 0.5s ease 0.5s;
+  -moz-transition: color 0.5s ease 0.5s;
+  -webkit-transition: color 0.5s ease 0.5s;
+
+  &.active, &:hover{
+    color: #3BBE26;
+    font-weight: 700;
+  }
+}
+
+.mobile-menu-list-sublist-item a{
+  text-decoration: none;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+
+  &.active, &:hover{
+    color: #3BBE26;
+  }
+}
+
+.message-button-close-block{
+  display: none;
+}
+
+.message-button-close{
+  width: 138px !important;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-family: "Inter", serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+
+
+  &:hover{
+    color: #000000;
+    opacity: 0.6;
+  }
+}

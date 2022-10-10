@@ -1,0 +1,70 @@
+@use "../settings/global";
+
+#main-header {
+  background: #FFFFFF;
+}
+
+#main-slider {
+  //background: linear-gradient(180deg, #BEE1F3 0%, #9AC6DC 100%);
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/pomosh_v_rabote.png") no-repeat center left, linear-gradient(180deg, #EBFAF1 0%, #CCE7D6 100%);
+}
+
+header {
+  background: #FFFFFF;
+}
+
+footer {
+  background: #F6F6F6;
+}
+
+#main-rko-banner {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/rasschetno_kassovoe_banner.png") no-repeat center left, linear-gradient(180deg, #BEF3E3 0%, #9ADCC4 100%);
+}
+
+#main-transfers {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/perevodi.png") no-repeat center left, linear-gradient(180deg, #E4D8FE 0%, #B2BEEA 100%);
+}
+
+#main-currency-exchange {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/obmen_valyuti.png") no-repeat center left, linear-gradient(180deg, #B0D8FE 0%, #A6C4F1 100%);
+}
+
+#main-service-payments {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/plateji_za_usluqi.png") no-repeat center left, linear-gradient(180deg, #FFE2B7 0%, #FACD76 100%);
+}
+
+#main-rental-of-safes {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/rental_safes.png") no-repeat center left, linear-gradient(180deg, #BEE1F3 0%, #9AC6DC 100%);
+}
+
+#main-legal-entities-and-individual-entrepreneurs {
+  background:  url("https://bosser762.github.io/rnko.github.io/images/illustrations/otkritie_i_vedenie_scheta_banner.png") no-repeat center left, linear-gradient(180deg, #BFF3BE 0%, #D7DC9A 100%);
+}
+
+#main-foreign-economic-activity-for-business-banner {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/pomosh_v_rabote.png") no-repeat center left, linear-gradient(180deg, #EBFAF1 0%, #CCE7D6 100%);
+}
+
+.main-foreign-economic-activity-for-business-currency-control-column {
+  background: linear-gradient(77.18deg, #F3F6FC -1.72%, #EFF1F8 91.57%);
+  border-radius: 8px;
+}
+
+#main-escort-services-banner {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/usluqi_po_soprovojdeniyu.png") no-repeat center left, linear-gradient(180deg, #E6DFFF 0%, #F4C9F8 100%);
+}
+
+#main-opening-loro-accounts-banner {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/korrespondentskie_scheta_loro_banner.png") no-repeat center left, linear-gradient(180deg, #F1F5F8 0%, #BEC8D9 100%);
+}
+
+#main-internet-bank-banner {
+  background: url("https://bosser762.github.io/rnko.github.io/images/illustrations/internet_bank.png") no-repeat center left, linear-gradient(180deg, #F1F5F8 0%, #97B5E3 100%);
+}
+
+#main-blog-banner {
+  background-image: linear-gradient(89.98deg, #EBEBF3 6.64%, rgba(235, 235, 244, 0.828087) 46.28%, rgba(233, 233, 244, 0.77) 59.27%, rgba(227, 227, 239, 0) 99.98%), url("https://bosser762.github.io/rnko.github.io/images/banners/main-blog-banner.png"), linear-gradient(270deg, #F1F5F8 25.94%, rgba(190, 200, 217, 0.07) 97.37%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}

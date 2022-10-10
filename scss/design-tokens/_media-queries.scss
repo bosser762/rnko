@@ -1,0 +1,770 @@
+@media only screen and (min-width: 1213px) {
+  #mobile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 847px) {
+  body .main-banner-column-image,
+  body #main-slider .image,
+  body .main-zk-column-right {
+    display: none;
+  }
+  body #main-slider .slide-content{
+    width: 100%;
+  }
+  body .main-banner-column-content,
+  body .main-transfers-info-left-col,
+  body .main-transfers-info-right-col,
+  body .main-zk-column {
+    width: 100%;
+  }
+  body .mobile-zk-image {
+    display: flex;
+  }
+  body .main-internet-bank-how-to-connect-internet-bank-row {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 1212px) {
+  #main-header {
+    display: none;
+  }
+
+  body #exchange-rates {
+    padding: 50px 24px !important;
+  }
+
+  body #main-footer {
+    padding: 32px 24px !important;
+  }
+
+  body section {
+    padding: 0 24px !important;
+  }
+}
+
+@media only screen and (max-width: 838px) {
+  body #main-services .main-row {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1096px) {
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row.row-1 {
+    width: 49%;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row.row-3 {
+    margin: 0;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-column {
+    width: 100%;
+
+    & .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row {
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-internet-banking-row {
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-internet-banking-column-left {
+    width: 100%;
+    max-width: 269px;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-internet-banking-column-right {
+    display: none;
+  }
+
+  body .mobile-main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image-block {
+    margin: 0 0 33px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body .main-transfers-info-column-icon{
+    display: flex;
+    align-items: center;
+
+    & img{
+      width: 20px;
+      height: auto;
+    }
+  }
+
+  body .main-transfers-info-column-title{
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  body .main-transfers-info-content{
+    gap: 14px;
+  }
+}
+
+@media only screen and (max-width: 1095px) {
+  body #main-dimensions-selection-form .modal-content .modal-content-column {
+    gap: 16px !important;
+  }
+  body #main-dimensions-selection-form .modal-content {
+    padding: 64px 24px 32px 24px;
+  }
+  body #main-dimensions-selection-form .modal-content .modal-content-item-block {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #main-currency-exchange-converter .exchange-rates-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  #main-currency-exchange-converter .exchange-rates-row {
+    gap: 16px;
+
+    & .exchange-rates-column:nth-child(2) {
+      border-right: 1px solid #D9D9D9;
+    }
+  }
+}
+
+@media only screen and (max-width: 822px) {
+  body .main-blog-column {
+    width: 100%;
+  }
+  body .main-blog-row {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+
+  body #main-footer {
+    display: none;
+  }
+
+  body #main-mobile-footer {
+    display: flex;
+
+    & .main-footer-column:last-child {
+      width: 100%;
+    }
+
+    & .main-footer-column:last-child p {
+      max-width: 250px;
+    }
+
+    & .main-mobile-footer-row {
+      width: 100%;
+    }
+
+    & .main-footer-column-title-bottom {
+      margin: 16px 0;
+    }
+  }
+
+  body #main-currency-exchange-converter input {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  body .main-currency-exchange-converter-currency-list, body .main-currency-exchange-converter-currency-received-list {
+    right: 24px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 832px) {
+  body .main-blog-carousel-link img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+  body .main-zk-documents-block-bottom-row,
+  body .main-zk-documents-block-top-row,
+  body .main-zk-tariffs-block-row {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  body #main-dimensions-selection-form .main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-sum-block {
+    width: 100%;
+  }
+  body #main-legal-entities-and-individual-entrepreneurs-opening-account {
+    padding: 0 !important;
+
+    & .main-title-block {
+      padding: 0 24px;
+    }
+
+    & .main-legal-entities-and-individual-entrepreneurs-opening-account-row {
+      padding: 56px 24px!important;
+    }
+  }
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-row {
+    border: none;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-radius: unset;
+    -moz-border-radius: unset;
+    -webkit-border-radius: unset;
+  }
+  body .main-dimensions-selection-form-column-right {
+    min-width: 380px;
+  }
+  body .main-internet-bank-how-to-connect-internet-bank-column,
+  body .main-internet-bank-description-row div {
+    width: 100%;
+  }
+  body .main-contacts-info-column-left {
+    width: 100%;
+  }
+  body .main-addition-column {
+    min-width: 310px;
+  }
+  body .exchange-rates-title-block-title, body .main-blog-block-title {
+    font-size: 22px;
+  }
+  body .exchange-rates-title-block-link {
+    font-size: 15px;
+  }
+  body .main-escort-services-recommendations-column-download-block {
+    justify-content: flex-start;
+  }
+
+  body .main-escort-services-recommendations-column-download-block-text {
+    width: 110px;
+  }
+
+  body #main-contacts-form {
+    padding: 0 !important;
+
+    & .main-title {
+      padding: 0 24px;
+    }
+
+    & .main-legal-entities-and-individual-entrepreneurs-opening-account-row {
+      padding: 32px 24px 36px 24px !important;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  body .main-addition-column {
+    width: 100%;
+    height: auto;
+  }
+  body .main-dimensions-selection-form-column-left {
+    border: none;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-radius: unset;
+    -moz-border-radius: unset;
+    -webkit-border-radius: unset;
+  }
+  body .main-dimensions-selection-form-column-left {
+    width: 100%;
+  }
+  body .main-dimensions-selection-form-row {
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+
+  body .main-dimensions-selection-form {
+    padding: 0 !important;
+  }
+
+  body #main-dimensions-selection-form {
+    padding: 0 !important;
+
+    & .main-title-block {
+      padding: 0 24px 32px 24px;
+    }
+
+    & .main-dimensions-selection-form-column-left-row-bottom {
+      padding: 32px 24px 56px 24px !important;
+    }
+
+    & .main-dimensions-selection-form-column-left-row {
+      padding: 0 24px 32px 24px !important;
+    }
+
+    & .main-dimensions-selection-form-column-left-row-step-2 {
+      padding: 56px 24px 0px !important;
+    }
+
+    & .main-dimensions-selection-form-column-left-row.step-2 {
+      padding: 0px !important;
+    }
+
+    & .main-dimensions-selection-form-column-left-row-step-2-button-block {
+      border: none;
+      margin: 0;
+      gap: 40px;
+    }
+
+
+  }
+  body .main-dimensions-selection-form-column-right {
+    min-width: 380px;
+  }
+
+  body .warning {
+    margin: -20px 0 20px 0;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  body #main-about-rnko .main-container,
+  body #main-suspended-remote-banking-services .main-suspended-remote-banking-services-row {
+    padding: 32px 0 64px 0;
+  }
+}
+
+@media only screen and (max-width: 274px) {
+  body .main-dimensions-selection-form-column-right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1101px) {
+  body .main-currency-exchange-converter-column {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 369px) {
+  body .mobile-main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image-block {
+
+    & img {
+      margin-top: -37%;
+    }
+  }
+
+  body #main-slider {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body .mobile-main-legal-entities-and-individual-entrepreneurs-internet-banking-column-image-block {
+
+    & img {
+      margin-top: -42%;
+    }
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  body .main-foreign-economic-activity-for-business-currency-control-column {
+    width: 100%;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    gap: 16px;
+
+    & .main-foreign-economic-activity-for-business-currency-control-column-content {
+      width: 100%;
+      max-width: 350px;
+
+      & img {
+        width: auto;
+        max-height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    & .main-foreign-economic-activity-for-business-currency-control-column-content-right {
+      text-align: center;
+    }
+  }
+
+  body .main-foreign-economic-activity-for-business-conversion-operations-row {
+    width: 100%;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    padding: 56px 24px 32px 24px;
+    gap: 16px;
+
+    & .main-foreign-economic-activity-for-business-conversion-operations-column {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  body .main-dimensions-selection-form-column-right {
+    min-width: 100%;
+  }
+  body .main-suspended-remote-banking-services-card {
+    width: 100%;
+  }
+  body .main-dimensions-selection-form-column {
+    border: none;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-radius: unset;
+    -moz-border-radius: unset;
+    -webkit-border-radius: unset;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body .main-escort-services-recommendations-column-content-image {
+    display: none;
+  }
+  body .main-escort-services-recommendations-column-content-block p {
+    width: 100%;
+  }
+  body .main-zk-documents-block {
+    padding: 32px 20px;
+  }
+  body .main-zk-documents-block-top-row,
+  body .main-zk-documents-block-bottom-row {
+    padding: 0;
+  }
+  body #main-zk {
+
+    & .main-zk-row {
+      border: none;
+      border-top: 1px solid #DEC1B7;
+      border-bottom: 1px solid #DEC1B7;
+      border-radius: unset;
+      -moz-border-radius: unset;
+      -webkit-border-radius: unset;
+    }
+
+    padding: 0 !important;
+  }
+  body #main-us {
+    padding: 0 !important;
+
+    & .main-zk-row {
+      border: none;
+      border-top: 1px solid #CFD9E4;
+      border-bottom: 1px solid #CFD9E4;
+      border-radius: unset;
+      -moz-border-radius: unset;
+      -webkit-border-radius: unset;
+    }
+  }
+
+  body .main-zk-title {
+    font-size: 24px;
+  }
+
+  body .main-zk-title {
+    font-size: 24px;
+  }
+
+  body .main-title {
+    font-size: 24px;
+  }
+
+  body .main-zk-text {
+    font-size: 16px;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-title {
+    margin: 0;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title {
+    margin: 0 0 20px 0;
+  }
+
+  body .message-length-block {
+    margin-top: -20px;
+  }
+
+  body .message-button-block {
+    margin-top: 20px;
+  }
+  body #myModal .modal-content-form-row {
+    margin: 0;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-row {
+    padding: 40px 0px !important;
+  }
+
+  body #main-rental-of-cash-service-banner .main-legal-entities-and-individual-entrepreneurs-internet-banking-row {
+    padding: 56px 20px 0 20px;
+  }
+  body .main-legal-entities-and-individual-entrepreneurs-internet-banking-column-left {
+    max-width: 100%;
+  }
+
+  body .main-legal-entities-and-individual-entrepreneurs-internet-banking-column-text {
+    margin: 0 0 40px 0;
+  }
+
+  body .main-banner-column-content-bottom-text {
+    margin: 0 0 40px 0;
+  }
+  body #main-currency-exchange .main-banner-column-content-bottom-text.last-el,
+  body #main-service-payments .main-banner-column-content-bottom-text.last-el,
+  body #main-rental-of-safes .main-banner-column-content-bottom-text.last-el,
+  body #main-escort-services-banner .main-banner-column-content-bottom-text.last-el,
+  body #main-blog-banner .main-banner-column-content-bottom-text-date.last-el,
+  body #main-internet-bank-banner .main-banner-column-content-bottom-text.last-el,
+  {
+    margin: 0 0 40px 0;
+  }
+
+  body #main-currency-exchange .main-banner-button,
+  body #main-service-payments .main-banner-button,
+  body #main-rental-of-safes .main-banner-button,
+  body #main-legal-entities-and-individual-entrepreneurs .main-banner-button,
+  body #main-foreign-economic-activity-for-business-banner .main-banner-column-content-bottom-text.last-el,
+  body #main-escort-services-banner .main-banner-button,
+  body #main-opening-loro-accounts-banner .main-banner-button,
+  body #main-opening-loro-accounts-banner .main-banner-column-content-bottom-text.last-el,
+  body #main-blog-banner .main-banner-button,
+  body #main-internet-bank-banner .main-banner-button,
+  {
+    margin: 0 !important;
+  }
+  body #main-legal-entities-and-individual-entrepreneurs .main-banner-column-content-bottom-text.last-el,
+  {
+    margin: 0 0 24px 0;
+  }
+
+  body #main-legal-entities-and-individual-entrepreneurs-internet-banking .main-container{
+    padding: 0;
+  }
+
+  body #main-legal-entities-and-individual-entrepreneurs-opening-account .main-container{
+    padding: 64px 0 0 0;
+  }
+
+  body .main-currency-exchange-converter-currency-list{
+
+    & li {
+      padding: 10px 0;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    & li img{
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  body .main-currency-exchange-converter-currency-received-list{
+    & li {
+      padding: 10px 0;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    & li img{
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  body #main-zk .main-zk-row,body #main-us .main-zk-row{
+    padding: 40px 24px 0 24px;
+  }
+
+  body .slide-content-title{
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 727px) {
+  body .modal-content-item-block,
+  body .modal-content-image-block {
+    width: 100%;
+    text-align: center;
+  }
+  body .modal-content-price-block {
+    width: 100%;
+
+    & .main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-sum-block {
+      position: relative;
+      margin: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  body .main-opening-loro-accounts-competitive-banking-service-row {
+    gap: 32px;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+  }
+
+  body .main-opening-loro-accounts-competitive-banking-service-column {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1213px) {
+  body .main-internet-bank-description-row,
+  body .main-internet-bank-how-to-connect-internet-bank-row {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  body .main-about-rnko-row {
+    margin: 24px 0 0 0;
+    gap: 32px;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+  }
+
+  body .main-about-rnko-column {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1208px) {
+  body .main-contacts-info-row {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    gap: 32px;
+  }
+
+  body .main-contacts-info-column-right {
+    width: 100%;
+
+    & iframe {
+      min-height: 381px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1128px) {
+  body .main-suspended-remote-banking-services-row {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 1301px) {
+  body .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row.row-4 {
+    justify-content: flex-end!important;
+
+    & .message-button-block {
+      margin-top: 40px;
+    }
+  }
+}
+@media only screen and (max-width: 1300px) {
+  body .message-button-close-block {
+    width: auto;
+    display: block;
+  }
+  body .message-button-block {
+    margin: 0;
+    width: auto;
+  }
+
+  body #myModal .modal-content {
+    margin-bottom: 88px;
+    max-width: 100%;
+    border: none;
+    border-radius: unset;
+    -moz-border-radius: unset;
+    -webkit-border-radius: unset;
+  }
+
+  body #main-contacts-form .main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row.row-4 {
+    justify-content: flex-end!important;
+
+    & .message-button-block {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  body .main-suspended-remote-banking-services-articles-block {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  body .main-suspended-remote-banking-services-articles-block-number {
+    line-height: 56px;
+  }
+
+  body .main-banner-column-content-title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  body .main-zk-documents-title {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  body .main-zk-documents-block-bottom-row-text {
+    max-width: 100px;
+  }
+}
+@media only screen and (max-width: 377px) {
+  body .main-zk-documents-block-bottom-row-text{
+    max-width: 80%;
+  }
+
+  body .main-addition-column {
+    min-width: 270px;
+  }
+}

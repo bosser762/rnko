@@ -1,0 +1,209 @@
+/***MENU***/
+
+@use "../settings/global";
+
+#main-header {
+  background: #FFFFFF;
+  box-shadow: 0px 24px 80px rgba(152, 152, 152, 0.07), 0px 3.00517px 10.0172px rgba(152, 152, 152, 0.035);
+}
+
+.header-nav .main-navbar {
+  padding: 0;
+}
+
+.main-navbar ul.main-navbar-main-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 30px;
+}
+
+.header-lang ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 2px;
+}
+
+.main-navbar-main-list {
+  margin-bottom: 0.3rem;
+}
+
+.main-navbar-main-list-sublist {
+  max-width: 860px;
+  padding: 0;
+  position: absolute;
+  top: 70px;
+  list-style: none;
+  display: none;
+  justify-content: flex-start;
+  gap: 0 30px;
+  margin: 0.3rem auto 0 auto;
+  left: 0;
+  right: 0;
+  transition: all 0.5s;
+}
+
+.main-navbar-main-list-sublist li.main-navbar-main-list-sublist-item a {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: global.$header-nav-font-height;
+  color: global.$primary-color;
+}
+
+.main-navbar ul li a.main-navbar-main-list-item-link::before {
+  content: "";
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 39.5px;
+  background: transparent;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  z-index: 1;
+}
+
+.main-navbar ul li a.active::before {
+  width: 100%;
+  background: #3BBE26;
+}
+
+.main-navbar-button-link:before, .header-lang ul li a:before, .main-navbar ul.main-navbar-main-list-sublist li.main-navbar-main-list-sublist-item a:hover {
+  height: 0px !important;
+}
+
+.main-transfers-info-column-list {
+  list-style-type: disc;
+  margin: 24px 0 0 0;
+  padding: 0 20px;
+}
+
+.main-currency-exchange-converter-currency-list, .main-currency-exchange-converter-currency-received-list {
+  margin-left: 40px;
+  position: absolute;
+  list-style: none;
+  display: none;
+  transition: all 0.5s;
+  background: linear-gradient(77.18deg, #F3F6FC -1.72%, #EFF1F8 91.57%);
+  border: 1px solid rgba(160, 160, 160, 0.67);
+  border-radius: 8px;
+  padding: 10px 20px;
+
+  & li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 5px;
+    font-family: global.$main-font-family;
+    font-style: global.$font-style;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.5s;
+  }
+
+  & li:not(:last-child) {
+    //border-bottom: 1px solid rgba(160, 160, 160, 0.67);
+  }
+
+  & li:hover {
+    background: #9AC6DC;
+  }
+
+  & li img {
+    object-fit: cover;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+  }
+}
+
+.main-navbar-main-list-sublist-list {
+  display: none;
+  margin: 0 5% 0 -5%;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 27px 80px rgba(0, 0, 0, 0.07), 0px 6.0308px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.79553px 5.32008px rgba(0, 0, 0, 0.0282725);
+  border-radius: 8px;
+
+  &:before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -9px;
+    width: 0%;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #ffffff;
+  }
+
+  &:after {
+    z-index: 0;
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -10px;
+    width: 0%;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #EBEBEB;
+  }
+
+  & li:last-child {
+    margin: 12px 0 0 0;
+  }
+}
+
+.main-navbar-main-list-sublist-item:hover .main-navbar-main-list-sublist-list {
+  display: block;
+}
+
+.main-navbar-main-list-item-link.active + .main-navbar-main-list-sublist {
+  display: flex;
+}
+
+.mobile-menu-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mobile-menu-list-sublist{
+  display: none;
+  padding: 0;
+  margin: 0 0 2.5rem 0;
+  list-style: none;
+}
+
+.mobile-menu-list-sublist-item{
+  padding: 0 0.5rem;
+  margin: 0 0 1rem 0.5rem;
+}
+
+.mobile-menu-link.active + .mobile-menu-list-sublist{
+  display: block;
+}

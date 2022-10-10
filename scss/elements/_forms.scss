@@ -1,0 +1,228 @@
+@use "../settings/global";
+
+*:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.main-currency-exchange-converter-input {
+  min-width: 489px;
+  padding: 16.5px 8px;
+  box-sizing: border-box;
+  background: linear-gradient(77.18deg, #F3F6FC -1.72%, #EFF1F8 91.57%);
+  border: 1px solid rgba(160, 160, 160, 0.67);
+  border-radius: 8px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+
+  &:focus {
+    outline: 1px solid #5052FE;
+    border: 1px solid #5052FE;
+  }
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-range {
+  background: linear-gradient(to right, #3AAF45 0%, #3AAF45 0%, #BBBCBE 0%, #BBBCBE 100%);
+  border-radius: 8px;
+  height: 2px;
+  width: 100%;
+  outline: none;
+  transition: background 450ms ease-in;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  &:focus {
+    border: none;
+  }
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-range::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #FFFFFF;
+  box-shadow: 0px 0.320776px 2.56621px rgba(0, 0, 0, 0.12), 0px 3.84931px 8.34017px rgba(0, 0, 0, 0.12);
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$black-color1;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-activity {
+  margin: 0 12px 0 0;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  border-radius: 50%;
+}
+
+[type="radio"]:not(:checked) {
+  box-sizing: border-box;
+  background: #F3F6FC;
+  border: 2px solid #A0A0A0;
+}
+
+[type="radio"]:checked {
+  border: 2px solid #3AAF45;
+  //outline: 2px solid #3AAF45;
+  color: #3AAF45;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+[type="radio"]:checked:before {
+  margin: auto;
+  position: relative;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #F3F6FC;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #3AAF45;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input,
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-inn,
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-email,
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-phone {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  background: linear-gradient(77.18deg, #F3F6FC -1.72%, #EFF1F8 91.57%);
+  border: 1px solid rgba(160, 160, 160, 0.67);
+  border-radius: 8px;
+  padding: 17px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(45, 45, 45, 0.67);
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #5052FE;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder{
+  color: transparent;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-textarea-message {
+  width: 100%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  resize: none;
+  background: linear-gradient(77.18deg, #F3F6FC -1.72%, #EFF1F8 91.57%);
+  border: 1px solid rgba(160, 160, 160, 0.67);
+  border-radius: 8px;
+  padding: 17px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(45, 45, 45, 0.67);
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input.error
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-inn.error,
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-email.error,
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-phone.error,
+.main-legal-entities-and-individual-entrepreneurs-opening-account-activity-textarea-message.error {
+  border: 1px solid #ff0000;
+}
+
+.warning {
+  display: none;
+  margin: 10px 0;
+  text-align: left;
+  background: #FFFFFF;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ff0000;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-text-days-count {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: transparent;
+  margin: 14px 0 0 0;
+  padding: 16px;
+  box-sizing: border-box;
+  background: linear-gradient(77.18deg, #F3F6FC -1.72%, #EFF1F8 91.57%);
+  border: 1px solid rgba(160, 160, 160, 0.67);
+  border-radius: 8px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}

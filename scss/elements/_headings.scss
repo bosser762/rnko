@@ -1,0 +1,11 @@
+@use "../settings/global";
+
+.exchange-rates-title-block-title, .main-blog-block-title{
+  margin: auto!important;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #2D2D2D;
+}

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNKO</title>
+    <!--STYLES-->
+    <link rel="stylesheet" href="scss/main.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+            integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+<header>
+    <section id="main-header">
+        <div class="main-container">
+            <div class="main-row">
+                <div class="header-logo">
+                    <a href="index.html"><img src="images/Logo.svg" class="logo" alt="logo"></a>
+                </div>
+                <div class="header-navbar">
+                    <div class="main-row gap-5">
+                        <div class="header-nav">
+                            <nav class="main-navbar">
+                                <ul class="main-navbar-main-list">
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="rko.html" class="main-navbar-main-list-item-link"
+                                           title="Частным лицам">Частным лицам</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="rko.html">РКО</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="transfers.html">Переводы</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="currency-exchange.html">Обмен валют</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="service-payments.html">Платежи за услуги</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="rental-of-safes.html">Аренда сейфов</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="legal-entities-and-individual-entrepreneurs.html"
+                                           class="main-navbar-main-list-item-link active"
+                                           title="Юридическим лицам и ИП">Юридическим лицам и ИП</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="legal-entities-and-individual-entrepreneurs.html">РКО</a>
+                                            </li>
+
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="foreign-economic-activity-for-business.html">ВЭД для
+                                                    бизнеса</a>
+                                            </li>
+
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="yl-rental-of-safes.html">Аренда сейфов</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="#" class="active">Ещё <i class="fa fa-chevron-down"></i></a>
+                                                <ul class="main-navbar-main-list-sublist-list">
+                                                    <li><a href="escort-services.html" class="active">Сопровождение по
+                                                        115-ФЗ</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="opening-loro-accounts.html" class="main-navbar-main-list-item-link"
+                                           title="Финансовым институтам">Финансовым институтам</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="opening-loro-accounts.html">Открытие счетов ЛОРО</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="about-rnko.html" class="main-navbar-main-list-item-link"
+                                           title="О РНКО">О РНКО</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="about-rnko.html">О Нас</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="blog.html">Новости</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="contacts.html" class="main-navbar-main-list-item-link"
+                                           title="Свяжитесь с нами">Свяжитесь
+                                            с нами</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="contacts.html">Контакты</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <div class="main-navbar-button">
+                                            <a href="internet-bank.html"
+                                               class="main-navbar-button-link">Интернет-Банк</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-lang">
+                            <ul>
+                                <li><a href="#" class="active">РУ</a></li>
+                                <li><span>|</span></li>
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-navbar-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mobile-menu">
+        <div class="main-container">
+            <div class="mobile-menu-row">
+                <div class="mobile-menu-logo">
+                    <a href="index.html"><img src="images/Logo.svg" class="logo" alt="logo"></a>
+                </div>
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-list-item">
+                                <a href="rko.html" class="mobile-menu-link">Частным лицам</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="rko.html">РКО</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="transfers.html">Переводы</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="currency-exchange.html">Обмен валют</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="service-payments.html">Платежи за услуги</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="rental-of-safes.html">Аренда сейфов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="legal-entities-and-individual-entrepreneurs.html" class="mobile-menu-link active">Юридическим
+                                    лицам и ИП</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="legal-entities-and-individual-entrepreneurs.html">РКО</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="foreign-economic-activity-for-business.html">ВЭД для бизнеса</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="yl-rental-of-safes.html">Аренда сейфов</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="escort-services.html" class="active">Сопровождение по 115-ФЗ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="opening-loro-accounts.html" class="mobile-menu-link">Финансовым институтам</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="opening-loro-accounts.html">Открытие счетов ЛОРО</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="about-rnko.html" class="mobile-menu-link">О РНКО</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="about-rnko.html">О Нас</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="blog.html">Новости</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="contacts.html" class="mobile-menu-link">Свяжитесь с нами</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="main-navbar-button">
+                            <a href="internet-bank.html" class="main-navbar-button-link">Интернет-Банк</a>
+                        </div>
+                        <div class="mobile-menu-lang-row">
+                            <a href="#" class="mobile-menu-lang-link active">РУ</a>
+                            <a href="#" class="mobile-menu-lang-link">EN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<section id="main-suspended-remote-banking-services">
+    <div class="main-container">
+        <div class="main-suspended-remote-banking-services-row">
+            <div class="main-suspended-remote-banking-services-column main-suspended-remote-banking-services-column-left">
+                <div class="main-suspended-remote-banking-services-column-breadcrumbs-block">
+                    <a href="escort-services.html"
+                       class="main-suspended-remote-banking-services-column-breadcrumbs-link">
+                        <p class="main-suspended-remote-banking-services-column-breadcrumbs-title">
+                            <img src="images/icons/arrows/arrow-right-breadcrumb.svg"
+                                 class="main-suspended-remote-banking-services-column-breadcrumbs-block-image" alt=""/>Услуги
+                            по сопровождению
+                            по 115-ФЗ</p>
+                    </a>
+                </div>
+                <h2 class="main-suspended-remote-banking-services-title">Приостановлено дистанционное банковское
+                    обслуживание</h2>
+                <p class="main-suspended-remote-banking-services-sub-title">5 основных причин для ограничений операций
+                    по счёту:</p>
+                <div class="separator-mt-16"></div>
+                <p class="main-suspended-remote-banking-services-text">Согласно Федеральному закону <a
+                        href="http://www.consultant.ru/document/cons_doc_LAW_32834/" target="_blank">№ 115-ФЗ</a>,
+                    кредитные организации обязаны обращать внимание на операции сомнительного характера. Обнаружив такие
+                    операции, кредитная организация имеет право ограничить предоставление услуг дистанционного
+                    банковского обслуживания (ДБО).</p>
+                <div class="main-suspended-remote-banking-services-image-block">
+                    <img src="images/banners/suspended-remote-banking-services-banner.png"
+                         class="main-suspended-remote-banking-services-image" alt=""/>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">Ниже список самых распространённых причин, по
+                    которым банк может приостановить ДБО и запросить документы, сопутствующие конкретной операции. А
+                    также простые советы, как действовать, чтобы ограничение операций вас не коснулось.</p>
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">1</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">Со счёта часто снимаются наличные
+                        средства
+                        <br/>«на хозяйственные расходы и/или прочие цели»</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">Расчёты в рамках хозяйственной юридических лиц и
+                    индивидуальных предпринимателей рекомендуется осуществлять преимущественно безналичным путем. Но в
+                    иногда у организации бывает потребность в наличных денежных средствах. Например для оплаты работ,
+                    услуг, выполняемых на разовой основе, а также для приобретения товаров в розничной сети за наличный
+                    расчет. Если снимаемые наличные суммы выходят, с точки зрения кредитной организации, за рамки
+                    разумного, то кредитная организация может запросить документы, подтверждающие расходование снятых с
+                    расчетного счета денежных средств.
+                </p>
+                <div class="what-do-we-recommend">
+                    <h4 class="what-do-we-recommend-title">РЕКОМЕНДУЕМ</h4>
+                    <p class="what-do-we-recommend-text">Использовать безналичные расчёты, в т. ч. для возмещения
+                        расходов, произведенных сотрудниками в рамках хозяйственной деятельности предприятия
+                        (подотчетных сумм), сохранив при этом в учёте первичные документы – чек, счет на оплату,
+                        авансовый отчёт сотрудника и т.д.</p>
+                </div>
+
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">2</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">По счёту проводятся транзитные операции,
+                        <br/>«не имеющие экономического смысла»</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    Бывают ситуации, когда к руководителям компаний, успешно работающих на рынке, обращаются партнеры,
+                    друзья или знакомые с просьбой провести через счета компании отдельные операции. Возможно, они даже
+                    обещают за это денежное вознаграждение. Подобные операции, не свойственные бизнесу и не ведущие к
+                    реальным поставкам товаров и предоставлению услуг, свойственны фирмам-однодневкам. Кредитные
+                    организации, заметив, что среди реальных операций клиента присутствуют транзитные потоки,
+                    обязательно запросят документы, «объясняющие экономический смысл операций», так как их целью, скорее
+                    всего, является отмывание доходов.
+                </p>
+                <div class="what-do-we-recommend">
+                    <h4 class="what-do-we-recommend-title">РЕКОМЕНДУЕМ</h4>
+                    <p class="what-do-we-recommend-text">Не соглашаться участвовать в сомнительных схемах ни по дружбе,
+                        ни за деньги. Это приводит к проблемам с законом и портит деловую репутацию не только компании,
+                        но и ее представителей и бенефициарных владельцев.</p>
+                </div>
+
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">3</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">По расчетному счету компании отсутствуют
+                        <br/>платежи в бюджет, внебюджетные фонды</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    Частое явление — наличие у юридического лица или предпринимателя нескольких расчётных счетов в
+                    разных банках, при котором платежи в бюджет и внебюджетные фонды осуществляются целиком или
+                    преимущественно только в одном из них. А иногда налоги оплачиваются наличными от имени физических
+                    лиц. В таких условиях обслуживающая кредитная организация не знает, что налоги оплачены. Это
+                    вызывает подозрения в том, что реальная деятельность не ведётся.
+                </p>
+                <div class="what-do-we-recommend">
+                    <h4 class="what-do-we-recommend-title">РЕКОМЕНДУЕМ</h4>
+                    <p class="what-do-we-recommend-text">Перечислять налоги с расчётного счёта, не используя механизм
+                        оплаты наличными. С пониманием отнеситесь к запросам кредитной организации о предоставлении
+                        документов, подтверждающих уплату налогов, если оплата производится со счета в иной кредитной
+                        организации. Следите за тем, чтобы объём отчислений в бюджет был сопоставим с операциями,
+                        осуществляемыми по расчетным счетам, а также соответствовал отрасли организации.</p>
+                </div>
+
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">4</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">Назначения платежей в документах
+                        <br/>компании некорректные или неполные</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    В каждом платёжном документе следует в полном объёме указывать основание платежа: номера и даты
+                    договоров, соглашений, счетов на оплату с указанием видов оплачиваемых товаров, работ или услуг.
+                    Например, назначение платежа не может считаться полным, если выглядит так: «за услуги». Правильным
+                    будет указать: «Оплата по счёту № ____ от __.__.____ за разработку документации компании, согласно
+                    спецификации № ____ от __.___.____ к Договору № _____ от __.__.___ года. Сумма 1 000 000-00, в т. ч.
+                    НДС 20% 167 000-00».
+                </p>
+                <div class="what-do-we-recommend">
+                    <h4 class="what-do-we-recommend-title">РЕКОМЕНДУЕМ</h4>
+                    <p class="what-do-we-recommend-text">Подробнее заполнять поле назначения платежа с указанием
+                        документов, послужившими основанием для перечисления денежных средств.</p>
+                </div>
+
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">5</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">Фирма платит за товары и услуги, не
+                        связанные
+                        <br/> с её видами деятельности согласно ОКВЭД</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    Сомнительной кредитной организации покажется работа не по кодам ОКВЭД, указанным в ЕГРЮЛ или ЕГРИП,
+                    и нетипичные для соответствующего вида деятельности расходы. Если транспортная компания регулярно
+                    перечисляет денежные средства на закупку бетонной смеси, то, как бы подробно и красиво ни
+                    заполнялись платёжные поручения, подозрений не избежать.
+                </p>
+                <div class="what-do-we-recommend">
+                    <h4 class="what-do-we-recommend-title">РЕКОМЕНДУЕМ</h4>
+                    <p class="what-do-we-recommend-text">
+                        Следить, чтобы все платежи соответствовали вашей хозяйственной деятельности. Если вы сменили вид
+                        деятельности, не забудьте внести изменения в реестр, указав правильные коды ОКВЭД, и сообщите об
+                        этом своей кредитной организации.
+                    </p>
+                </div>
+
+                <div class="separator-mt-52"></div>
+                <p class="main-suspended-remote-banking-services-sub-title">Что делать, если операции оказались
+                    ограничены:</p>
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">1</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">Зайдите в банк-клиент и проверьте,
+                        пришло ли письмо с запросом
+                        <br/> о предоставлении подтверждающих документов</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    Зайдите в банк-клиент и проверьте, пришло ли письмо с запросом о предоставлении подтверждающих
+                    документов. Возможно, вы не отреагировали своевременно на запрос кредитной организации, и та в свою
+                    очередь, не дождавшись ответа в установленный срок, ограничила доступ к дистанционному банковскому
+                    обслуживанию.
+                </p>
+
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">2</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">Если вы получили запрос на пояснение
+                        проводимых
+                        <br/> операций просит вас отнестись к этому серьёзно</p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    Если вы получили запрос на пояснение проводимых операций просит вас отнестись к этому серьёзно. Не
+                    игнорируйте требование кредитной организации и предоставьте документы в полном объёме и в сроки,
+                    указанные в запросе. Если у вас возникли вопросы, пожалуйста, позвоните по номеру, указанному в
+                    запросе, чтобы получить подробную информацию по сбору пакета документов.
+                </p>
+
+                <div class="main-suspended-remote-banking-services-articles-block">
+                    <span class="main-suspended-remote-banking-services-articles-block-number">3</span>
+                    <p class="main-suspended-remote-banking-services-sub-title">Если запрос из кредитной организации не
+                        поступал,
+                        <br/> свяжитесь со своим персональным менеджером,<br/>
+                        чтобы уточнить причины ограничения ДБО.
+                    </p>
+                </div>
+                <p class="main-suspended-remote-banking-services-text">
+                    Если запрос из кредитной организации не поступал, свяжитесь со своим персональным менеджером, чтобы
+                    уточнить причины ограничения ДБО. Кредитная организация предоставит письменное разъяснение.
+                </p>
+                <div class="separator-mt-16"></div>
+                <p class="main-suspended-remote-banking-services-text">
+                    При ограничении операций по счёту можно проводить платежи в офисе кредитной организации — при
+                    наличии документов, поясняющих основание платежа. Дистанционная оплата доступна только для налоговых
+                    платежей в бюджет и внебюджетные фонды.
+                </p>
+                <div class="separator-mt-16"></div>
+                <p class="main-suspended-remote-banking-services-text">Получите бесплатную консультацию по вопросам
+                    комплаенс, даже не имея расчётного счёта в РНКО, обратившись за помощью по номеру 8 (4242) 245858
+                    (доб. 512)</p>
+                <div class="what-do-we-recommend">
+                    <h4 class="what-do-we-recommend-title">РЕКОМЕНДУЕМ</h4>
+                    <p class="what-do-we-recommend-text">
+                        Хранить первичные документы, служащие основанием для проведения операций (договоры,
+                        дополнительные соглашения к ним, спецификации, товарные и транспортные накладные и т.д.). Они
+                        пригодятся не только, когда документы запросит обслуживающая кредитная организация, но и в
+                        случае досудебных или судебных разбирательств с контрагентами, если они нарушат обязательства.
+                    </p>
+                </div>
+            </div>
+            <div class="main-suspended-remote-banking-services-column main-suspended-remote-banking-services-column-right">
+                <div class="main-suspended-remote-banking-services-card">
+                    <p class="main-suspended-remote-banking-services-card-title">КОНВЕРСИОННЫЕ ОПЕРАЦИИ</p>
+                    <div class="main-suspended-remote-banking-services-card-row">
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-left">
+                            <p class="main-suspended-remote-banking-services-card-column-text">Проводите конверсионные
+                                операции с выгодными %</p>
+                            <a href="#" class="main-suspended-remote-banking-services-card-column-link">
+                                <div class="main-suspended-remote-banking-services-card-column-button">Подробнее</div>
+                            </a>
+                        </div>
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-right">
+                            <img src="images/illustrations/contract.png"
+                                 class="main-suspended-remote-banking-services-card-column-image" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-suspended-remote-banking-services-card">
+                    <p class="main-suspended-remote-banking-services-card-title">ИНТЕРНЕТ-БАНК</p>
+                    <div class="main-suspended-remote-banking-services-card-row">
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-left">
+                            <p class="main-suspended-remote-banking-services-card-column-text">Все ваши финансовые
+                                операции в одном интерфейсе</p>
+                            <a href="internet-bank.html"
+                               class="main-suspended-remote-banking-services-card-column-link">
+                                <div class="main-suspended-remote-banking-services-card-column-button">Подробнее</div>
+                            </a>
+                        </div>
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-right">
+                            <img src="images/illustrations/internet_bank_il.png"
+                                 class="main-suspended-remote-banking-services-card-column-image" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-suspended-remote-banking-services-card">
+                    <p class="main-suspended-remote-banking-services-card-title">АРЕНДА БАНКОВСКИХ СЕЙФОВ</p>
+                    <div class="main-suspended-remote-banking-services-card-row">
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-left">
+                            <p class="main-suspended-remote-banking-services-card-column-text">В наших сейфах ваши
+                                финансы будут в сохранности</p>
+                            <a href="rental-of-safes.html"
+                               class="main-suspended-remote-banking-services-card-column-link">
+                                <div class="main-suspended-remote-banking-services-card-column-button">Подробнее</div>
+                            </a>
+                        </div>
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-right">
+                            <img src="images/illustrations/safe.png"
+                                 class="main-suspended-remote-banking-services-card-column-image" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-suspended-remote-banking-services-card">
+                    <p class="main-suspended-remote-banking-services-card-title">ВЭД - ПОМОЩЬ В РАБОТЕ С ЗАРУБЕЖНЫМИ
+                        ПАРТНЁРАМИ</p>
+                    <div class="main-suspended-remote-banking-services-card-row">
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-left">
+                            <p class="main-suspended-remote-banking-services-card-column-text">Лучший выбор для хранения
+                                ваших стредств</p>
+                            <a href="#" class="main-suspended-remote-banking-services-card-column-link">
+                                <div class="main-suspended-remote-banking-services-card-column-button">Подробнее</div>
+                            </a>
+                        </div>
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-right">
+                            <img src="images/illustrations/ccards.png"
+                                 class="main-suspended-remote-banking-services-card-column-image" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-suspended-remote-banking-services-card">
+                    <p class="main-suspended-remote-banking-services-card-title">ПЕРЕВОДЫ</p>
+                    <div class="main-suspended-remote-banking-services-card-row">
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-left">
+                            <p class="main-suspended-remote-banking-services-card-column-text">Отправляйте и получайте
+                                денежные переводы без открытия счета</p>
+                            <a href="transfers.html" class="main-suspended-remote-banking-services-card-column-link">
+                                <div class="main-suspended-remote-banking-services-card-column-button">Подробнее</div>
+                            </a>
+                        </div>
+                        <div class="main-suspended-remote-banking-services-card-column main-suspended-remote-banking-services-card-column-right">
+                            <img src="images/illustrations/rocket.png"
+                                 class="main-suspended-remote-banking-services-card-column-image" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <section id="main-footer">
+        <div class="main-container">
+            <div class="main-row main-footer-top">
+                <div class="main-footer-phone">
+                    <p class="main-footer-phone-title"><a href="tel:+74242245858">(4242) 24-58-58</a></p>
+                    <p class="main-footer-phone-description">Головной офис</p>
+                </div>
+                <div class="main-footer-mail">
+                    <p class="main-footer-mail-title"><a href="mailto:info@rnko-kholmsk.ru">info@rnko-kholmsk.ru</a></p>
+                    <p class="main-footer-mail-description">Электронная почта</p>
+                </div>
+                <div class="main-footer-map">
+                    <a href="#" class="main-footer-map-link">Офисы на карте</a>
+                </div>
+            </div>
+            <div class="main-row main-footer-bottom">
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Лицо ответственное за полноту, достоверность и актуальность
+                        публикуемых на сайте сведений:</p>
+                    <p class="main-footer-column-text">Начальник отдела технического и программного обеспечения Самсонов
+                        Иван Николаевич</p>
+                    <p class="main-footer-column-text  main-footer-column-text-bottom">Тел.:<a
+                            class="main-footer-column-link" href="tel:+74242241786">
+                        +7 (4242) 24 17 86</a> (вн. 552)</p>
+                    <p class="main-footer-column-text">Эл. почта:<a class="main-footer-column-link"
+                                                                    href="mailto:info@rnko-kholmsk.ru">
+                        info@rnko-kholmsk.ru</a></p>
+                    <img src="images/logo-footer.svg" alt="logo">
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для физических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rko.html">РКО</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="transfers.html">Переводы</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="currency-exchange.html">Обмен валют</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="service-payments.html">Платежи за услуги</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rental-of-safes.html">Аренда сейфов</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для юридических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="legal-entities-and-individual-entrepreneurs.html">РКО</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="foreign-economic-activity-for-business.html">ВЭД для бизнеса</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="yl-rental-of-safes.html">Аренда сейфов</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="escort-services.html">Сопровождение по 115-ФЗ</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">О РНКО</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="about-rnko.html">О Нас</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="blog.html">Новости</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_FATCA.docx" download="Анкета_FATCA">FATCA</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_CRS.docx" download="Анкета_CRS">CRS</a></p>
+                    <p class="main-footer-column-title  main-footer-column-title-bottom">Финансовым институтам</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="opening-loro-accounts.html">Открытие счетов ЛОРО</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-mobile-footer">
+        <div class="main-container">
+            <div class="main-row main-footer-top">
+                <div class="main-footer-phone">
+                    <p class="main-footer-phone-title"><a href="tel:+74242245858">(4242) 24-58-58</a></p>
+                    <p class="main-footer-phone-description">Головной офис</p>
+                </div>
+                <div class="main-footer-mail">
+                    <p class="main-footer-mail-title"><a href="mailto:info@rnko-kholmsk.ru">info@rnko-kholmsk.ru</a></p>
+                    <p class="main-footer-mail-description">Электронная почта</p>
+                </div>
+                <div class="main-footer-map">
+                    <a href="#" class="main-footer-map-link">Офисы на карте</a>
+                </div>
+            </div>
+            <div class="main-row main-footer-bottom">
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для физических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rko.html">РКО</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="transfers.html">Переводы</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="currency-exchange.html">Обмен валют</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="service-payments.html">Платежи за услуги</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rental-of-safes.html">Аренда сейфов</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для юридических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="legal-entities-and-individual-entrepreneurs.html">РКО</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="foreign-economic-activity-for-business.html">ВЭД для бизнеса</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="yl-rental-of-safes.html">Аренда сейфов</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="escort-services.html">Сопровождение по 115-ФЗ</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">О РНКО</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="about-rnko.html">О Нас</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="blog.html">Новости</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_FATCA.docx" download="Анкета_FATCA">FATCA</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_CRS.docx" download="Анкета_CRS">CRS</a></p>
+                    <p class="main-footer-column-title  main-footer-column-title-bottom">Финансовым институтам</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="opening-loro-accounts.html">Открытие счетов ЛОРО</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Лицо ответственное за полноту, достоверность и актуальность
+                        публикуемых на сайте сведений:</p>
+                    <p class="main-footer-column-text">Начальник отдела технического и программного обеспечения Самсонов
+                        Иван Николаевич</p>
+                    <div class="main-mobile-footer-row">
+                        <div class="main-mobile-footer-column main-mobile-footer-column-left">
+                            <p class="main-footer-column-text  main-footer-column-text-bottom">Тел.:<a
+                                    class="main-footer-column-link" href="tel:+74242241786">
+                                +7 (4242) 24 17 86</a> (вн. 552)</p>
+                            <p class="main-footer-column-text">Эл. почта:<a class="main-footer-column-link"
+                                                                            href="mailto:info@rnko-kholmsk.ru">
+                                info@rnko-kholmsk.ru</a></p>
+                        </div>
+                        <div class="main-mobile-footer-column main-mobile-footer-column-right">
+                            <img src="images/logo-footer.svg" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="js/sliders/slick-slider.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

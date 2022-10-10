@@ -1,0 +1,1000 @@
+@use "../settings/global";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/***NAVBAR***/
+
+a {
+  text-decoration: none !important;
+}
+
+.main-navbar-main-list {
+  padding: 0px;
+}
+
+.main-navbar ul li a {
+  display: inline-block;
+  font-family: $main-font-family;
+  font-style: $font-style;
+  font-weight: 400;
+  font-size: $header-nav-font-size;
+  line-height: $header-nav-font-height;
+  color: $primary-color;
+}
+
+.main-navbar ul li a::after {
+  display: block;
+  content: attr(title);
+  font-weight: 700;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.main-navbar ul li a.main-navbar-main-list-item-link.active, .main-navbar ul li a.main-navbar-main-list-item-link:hover {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: global.$header-nav-font-size;
+  line-height: global.$header-nav-font-height;
+  color: global.$primary-color;
+}
+
+.header-lang {
+}
+
+.header-lang a, .header-lang span {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: global.$header-nav-font-height;
+  color: #000000;
+}
+
+.header-lang a.active, .header-lang a:hover {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: global.$header-nav-font-height;
+  color: #000000;
+}
+
+.main-services-title {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-services-description {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$gray-color1;
+}
+
+.exchange-rates-currency-title {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: global.$black-color1;
+  margin: 0 !important;
+}
+
+
+.exchange-rates-currency-exchange-items-title p {
+  margin: 0 0 0.3rem 0 !important;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(45, 45, 45, 0.67);
+}
+
+.exchange-rates-currency-exchange-items-content {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: global.$black-color1;
+}
+
+.main-blog-carousel-date {
+  margin: 16px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7E8086;
+}
+
+.main-blog-carousel-title {
+  margin: 8px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-blog-carousel-description {
+  margin: 16px 0 0 0;
+  padding-right: 20px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-footer-phone-title, .main-footer-mail-title {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: left;
+  color: global.$black-color1;
+  margin-bottom: 8px;
+}
+
+.main-footer-phone-description, .main-footer-mail-description {
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: rgba(45, 45, 45, 0.67);
+}
+
+.main-footer-column-title {
+  margin: 0 0 1rem 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-footer-column-text {
+  margin: 0 0 0.5rem 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-footer-column-text-bottom,
+.main-footer-column-title-bottom{
+  margin: 1rem 0 0 0;
+}
+
+.main-banner-column-content-top-text {
+  margin-bottom: 1rem;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: global.$blue-color1;
+}
+
+.main-banner-column-content-title {
+  margin-bottom: 1rem;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: global.$black-color1;
+}
+
+.main-banner-column-content-bottom-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-bottom: 48px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: global.$black-color1;
+
+  & img {
+    margin-right: 14px;
+  }
+}
+
+.main-banner-column-content-bottom-text-bold {
+  margin-bottom: 8px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: global.$black-color1;
+}
+
+.main-banner-column-content-bottom-text-date {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: global.$black-color1;
+}
+
+.main-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: global.$black-color1;
+}
+
+.main-title-text {
+  margin: 12px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.5px;
+  color: global.$black-color1;
+}
+
+.main-rko-content-title {
+  margin: 23px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: global.$black-color1;
+}
+
+.main-rko-content-text {
+  margin-top: 23px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: global.$black-color1;
+}
+
+.main-transfers-info-column-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$black-color1;
+}
+
+.main-transfers-info-column-text {
+  margin: 24px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-transfers-info-column-list li p {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-zk-title {
+  margin-bottom: 24px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: global.$black-color1;
+}
+
+.main-zk-text {
+  margin-bottom: 40px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: global.$black-color1;
+}
+
+.main-zk-subtitle {
+  margin-left: 16px;
+  margin-bottom: 12px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  color: global.$black-color1;
+}
+
+.main-zk-tariffs-block-row1-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(45, 45, 45, 0.67);
+}
+
+.main-zk-tariffs-block-row2-text, .main-zk-tariffs-block-row3-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: global.$black-color1;
+}
+
+.main-zk-documents-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$black-color1;
+}
+
+.main-zk-documents-block-bottom-row-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: global.$black-color1;
+}
+
+.main-addition-row-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-addition-row-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+#main-currency-exchange .main-banner-column-content-bottom-text,
+#main-service-payments .main-banner-column-content-bottom-text,
+#main-rental-of-safes .main-banner-column-content-bottom-text,
+#main-legal-entities-and-individual-entrepreneurs .main-banner-column-content-bottom-text,
+#main-escort-services-banner .main-banner-column-content-bottom-text,
+#main-internet-bank-banner .main-banner-column-content-bottom-text,
+#main-blog-banner .main-banner-column-content-bottom-text {
+  margin-bottom: 16px;
+}
+
+#main-currency-exchange .main-banner-button,
+#main-service-payments .main-banner-button,
+#main-rental-of-safes .main-banner-button,
+#main-legal-entities-and-individual-entrepreneurs .main-banner-button,
+#main-escort-services-banner .main-banner-button,
+#main-internet-bank-banner .main-banner-button,
+#main-blog-banner .main-banner-button {
+  margin-top: 79px;
+}
+
+.main-currency-exchange-converter-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-text-bold {
+  margin: 26px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-text-500 {
+  margin: 2px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-text-400 {
+  margin: 8px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-text-days-bold {
+  margin: 32px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-text {
+  width: 10% !important;
+  position: absolute;
+  margin: 1.8rem auto auto 2.5rem;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-title {
+  margin: 56px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: global.$black-color1;
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-sum-block-text-bold {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 47px;
+  color: global.$blue-color1;
+
+  & .main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-sum-block-text-bold-nds {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.main-dimensions-selection-form-column-left-row-step-2-days-block-range-block-sum-block-text {
+  margin: 8px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7E8086;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-internet-banking-column-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+  text-transform: uppercase;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-internet-banking-column-text {
+  margin: 0 0 72px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7E8086;
+}
+
+.main-legal-entities-and-individual-entrepreneurs-opening-account-title {
+  margin: 0 0 14px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: global.$black-color1;
+}
+
+.message-length-block p {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: global.$black-color1;
+}
+
+.main-foreign-economic-activity-for-business-currency-control-column-content-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-foreign-economic-activity-for-business-currency-control-column-content-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7E8086;
+}
+
+.main-foreign-economic-activity-for-business-conversion-operations-column-title {
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #222222;
+}
+
+.main-foreign-economic-activity-for-business-conversion-operations-column-text {
+  margin: 0 0 65px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: global.$black-color1;
+}
+
+.modal-content-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: global.$black-color1;
+}
+
+.modal-content-item-title {
+  margin: 0 0 2px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.modal-content-item-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: global.$black-color1;
+
+  &:first-child {
+    margin-top: 2px;
+  }
+}
+
+.modal-content-item-text-bottom {
+  margin: 8px 0 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-escort-services-row .main-rko-content-text {
+  margin-top: 12px;
+}
+
+.main-escort-services-first-aid-for-business-column-title {
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: global.$blue-color1;
+}
+
+.main-escort-services-first-aid-for-business-column-content-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7E8086;
+}
+
+.main-escort-services-recommendations-column-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-escort-services-recommendations-column-content-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7E8086;
+}
+
+.main-escort-services-recommendations-column-download-block-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-column-breadcrumbs-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-sub-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-articles-block-number {
+  margin: 0 16px 0 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  color: global.$blue-color1;
+}
+
+.what-do-we-recommend-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.what-do-we-recommend-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-card-title {
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-suspended-remote-banking-services-card-column-text {
+  margin: 0 0 22px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7E8086;
+}
+
+.main-opening-loro-accounts-competitive-banking-service-column-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-opening-loro-accounts-competitive-banking-service-column-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7E8086;
+}
+
+.main-internet-bank-description-column-title {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-internet-bank-description-column-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7E8086;
+}
+
+.main-internet-bank-how-to-connect-internet-bank-column-title {
+  margin: 0 0 24px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: global.$blue-color1;
+}
+
+.main-internet-bank-how-to-connect-internet-bank-column-text {
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7E8086;
+}
+
+.main-internet-bank-how-to-connect-internet-bank-column-number {
+  margin: 0 0 -80px -20px;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 900;
+  font-size: 202px;
+  line-height: 244px;
+  color: #DEE2EC;
+}
+
+.main-about-rnko-column-text {
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+#main-blog-banner .main-banner-column-content-bottom-text{
+  margin: 0 0 20px 0;
+}
+
+.main-blog-column-date{
+  margin: 16px 0 8px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7E8086;
+}
+
+.main-blog-column-title{
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-blog-column-text{
+  margin: 0;
+  padding: 0 0 22px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: global.$black-color1;
+}
+
+.main-suspended-remote-banking-services-date-block-date,
+.main-suspended-remote-banking-services-date-block-time{
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7E8086;
+}
+
+.main-contacts-info-column-link-title{
+  margin: 8px 0 32px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: rgba(45, 45, 45, 0.67);
+}
+
+.main-contacts-info-column-bold-text{
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-contacts-info-column-text{
+  margin: 0 0 16px 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: global.$black-color1;
+}
+
+.main-contacts-info-column-bottom-block-text{
+  margin: 0;
+  font-family: global.$main-font-family;
+  font-style: global.$font-style;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: global.$black-color1;
+}

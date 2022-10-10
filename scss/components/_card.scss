@@ -1,0 +1,126 @@
+@use "../settings/global";
+
+.main-services-column {
+  z-index: 1;
+  width: 387px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 27px 80px rgba(0, 0, 0, 0.07), 0px 6.0308px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.79553px 5.32008px rgba(0, 0, 0, 0.0282725);
+  border-radius: 8px;
+  height: 198px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.main-services-column:hover {
+  box-shadow: 0px 27px 80px 7px rgba(0, 0, 0, 0.07),
+  0px 6.0308px 17.869px 7px rgba(0, 0, 0, 0.0417275),
+  0px 1.79553px 5.32008px 7px rgba(0, 0, 0, 0.0282725);
+}
+
+.ms-col1 {
+  background-image: url(images/illustrations/safe.png);
+  background-repeat: no-repeat;
+  background-position: 90% 95%;
+  background-size: 112px;
+}
+
+.ms-col2 {
+  background-image: url(images/illustrations/internet_bank_il.png);
+  background-repeat: no-repeat;
+  background-position: 90% 85%;
+  background-size: 98px;
+}
+
+.ms-col3 {
+  background-image: url(images/illustrations/contract.png);
+  background-repeat: no-repeat;
+  background-position: 95% 85%;
+  background-size: 107px;
+}
+
+.main-transfers-info-column {
+  min-width: 280px;
+  width: 591px;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 20px;
+  gap: 20px;
+}
+
+.main-transfers-info-right-col{
+  min-width: 380px;
+}
+
+.main-transfers-info-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 18px;
+}
+
+.main-transfers-info-left-col {
+  background: #FCF9F3;
+  border: 1px solid #DD9830;
+}
+
+.main-transfers-info-right-col {
+  background: #F6F6F6;
+  border: 1px solid rgba(45, 45, 45, 0.67);
+}
+
+.main-zk-column {
+  width: 49%;
+  height: auto;
+}
+
+.main-zk-column-right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-dimensions-selection-form-column-left-image-block {
+  box-sizing: border-box;
+  background: #F6F6F6;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.main-dimensions-selection-form-column-left-image-block.active, .main-dimensions-selection-form-column-left-image-block:hover {
+  box-sizing: border-box;
+  background: #F6FBF7;
+  border: 1px solid #3AAF45;
+  border-radius: 8px;
+}
+
+.main-opening-loro-accounts-documents-list-card {
+  width: 580px;
+  padding: 32px 20px;
+  box-sizing: border-box;
+  background: #F6F6F6;
+  border: 1px solid rgba(45, 45, 45, 0.67);
+  border-radius: 8px;
+}
+
+.for-non-residents{
+  //display: none;
+}

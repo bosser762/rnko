@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNKO</title>
+    <!--STYLES-->
+    <link rel="stylesheet" href="scss/main.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+            integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+<header>
+    <section id="main-header">
+        <div class="main-container">
+            <div class="main-row">
+                <div class="header-logo">
+                    <a href="index.html"><img src="images/Logo.svg" class="logo" alt="logo"></a>
+                </div>
+                <div class="header-navbar">
+                    <div class="main-row gap-5">
+                        <div class="header-nav">
+                            <nav class="main-navbar">
+                                <ul class="main-navbar-main-list">
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="rko.html" class="main-navbar-main-list-item-link"
+                                           title="Частным лицам">Частным лицам</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="rko.html">РКО</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="transfers.html">Переводы</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="currency-exchange.html">Обмен валют</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="service-payments.html">Платежи за услуги</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="rental-of-safes.html">Аренда сейфов</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="legal-entities-and-individual-entrepreneurs.html"
+                                           class="main-navbar-main-list-item-link"
+                                           title="Юридическим лицам и ИП">Юридическим лицам и ИП</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="legal-entities-and-individual-entrepreneurs.html">РКО</a>
+                                            </li>
+
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="foreign-economic-activity-for-business.html">ВЭД для
+                                                    бизнеса</a>
+                                            </li>
+
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="yl-rental-of-safes.html">Аренда сейфов</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="#">Ещё <i class="fa fa-chevron-down"></i></a>
+                                                <ul class="main-navbar-main-list-sublist-list">
+                                                    <li><a href="escort-services.html">Сопровождение по 115-ФЗ</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="opening-loro-accounts.html" class="main-navbar-main-list-item-link"
+                                           title="Финансовым институтам">Финансовым институтам</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="opening-loro-accounts.html">Открытие счетов ЛОРО</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="about-rnko.html" class="main-navbar-main-list-item-link" title="О РНКО">О РНКО</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="about-rnko.html">О Нас</a>
+                                            </li>
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="blog.html">Новости</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <a href="contacts.html" class="main-navbar-main-list-item-link" title="Свяжитесь с нами">Свяжитесь
+                                            с нами</a>
+                                        <ul class="main-navbar-main-list-sublist">
+                                            <li class="main-navbar-main-list-sublist-item">
+                                                <a href="contacts.html">Контакты</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-navbar-main-list-item">
+                                        <div class="main-navbar-button">
+                                            <a href="internet-bank.html"
+                                               class="main-navbar-button-link">Интернет-Банк</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-lang">
+                            <ul>
+                                <li><a href="#" class="active">РУ</a></li>
+                                <li><span>|</span></li>
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-navbar-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mobile-menu">
+        <div class="main-container">
+            <div class="mobile-menu-row">
+                <div class="mobile-menu-logo">
+                    <a href="index.html"><img src="images/Logo.svg" class="logo" alt="logo"></a>
+                </div>
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-list-item">
+                                <a href="rko.html" class="mobile-menu-link">Частным лицам</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="rko.html">РКО</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="transfers.html">Переводы</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="currency-exchange.html">Обмен валют</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="service-payments.html">Платежи за услуги</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="rental-of-safes.html">Аренда сейфов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="legal-entities-and-individual-entrepreneurs.html" class="mobile-menu-link">Юридическим
+                                    лицам и ИП</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="legal-entities-and-individual-entrepreneurs.html">РКО</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="foreign-economic-activity-for-business.html">ВЭД для бизнеса</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="yl-rental-of-safes.html">Аренда сейфов</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="escort-services.html">Сопровождение по 115-ФЗ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="opening-loro-accounts.html" class="mobile-menu-link">Финансовым институтам</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="opening-loro-accounts.html">Открытие счетов ЛОРО</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="about-rnko.html" class="mobile-menu-link">О РНКО</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="about-rnko.html">О Нас</a>
+                                    </li>
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="blog.html">Новости</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-list-item">
+                                <a href="contacts.html" class="mobile-menu-link">Свяжитесь с нами</a>
+                                <ul class="mobile-menu-list-sublist">
+                                    <li class="mobile-menu-list-sublist-item">
+                                        <a href="contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="main-navbar-button">
+                            <a href="internet-bank.html" class="main-navbar-button-link">Интернет-Банк</a>
+                        </div>
+                        <div class="mobile-menu-lang-row">
+                            <a href="#" class="mobile-menu-lang-link active">РУ</a>
+                            <a href="#" class="mobile-menu-lang-link">EN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<section id="main-internet-bank-banner">
+    <div class="main-container">
+        <div class="main-row main-banner-row">
+            <div class="main-banner-column-content">
+                <p class="main-banner-column-content-top-text"></p>
+                <h2 class="main-banner-column-content-title">Интернет Банк</h2>
+                <p class="main-banner-column-content-bottom-text-bold">
+                    Полнофункциональный инструмент управления бизнес платежами
+                </p>
+                <p class="main-banner-column-content-bottom-text">
+                    <img src="images/icons/check1.svg" alt=""/>Совершайте платежи
+                </p>
+                <p class="main-banner-column-content-bottom-text">
+                    <img src="images/icons/check1.svg" alt=""/>Управляйте финансами где вам удобно
+                </p>
+                <p class="main-banner-column-content-bottom-text">
+                    <img src="images/icons/check1.svg" alt=""/>Сохраняйте шаблоны платежных поручений
+                </p>
+                <p class="main-banner-column-content-bottom-text">
+                    <img src="images/icons/check1.svg" alt=""/>Следите за балансом
+                </p>
+                <p class="main-banner-column-content-bottom-text last-el">
+                    <img src="images/icons/check1.svg" alt=""/>Просматривайте историю операций
+                </p>
+                <a href="#" class="main-banner-button-link" tabindex="-1" id="connectWithUs">
+                    <div class="main-banner-button">Связаться</div>
+                </a>
+            </div>
+            <!--<div class="main-banner-column-image">
+                <img src="images/banners/MacBook-Pro-banner.png" alt=""
+                     class="main-banner-column-image-item">
+            </div>-->
+        </div>
+    </div>
+</section>
+<section id="main-rental-of-safes-advantages">
+    <div class="main-container">
+        <div class="main-row">
+            <div class="main-title-block">
+                <h2 class="main-title">ПРЕИМУЩЕСТВА</h2>
+            </div>
+        </div>
+        <div class="main-row main-rko-row">
+            <div class="main-rko-content">
+                <div class="main-rko-content-column">
+                    <div class="main-rko-content-image-block">
+                        <img class="main-rko-content-image"
+                             src="images/icons/check.svg"
+                             alt="check">
+                    </div>
+                    <p class="main-rko-content-title">Удобно</p>
+                    <p class="main-rko-content-text">Дистанционное управление счетом</p>
+                </div>
+            </div>
+            <div class="main-rko-content">
+                <div class="main-rko-content-column">
+                    <div class="main-rko-content-image-block">
+                        <img class="main-rko-content-image"
+                             src="images/icons/check.svg"
+                             alt="check">
+                    </div>
+                    <p class="main-rko-content-title">Безопасно</p>
+                    <p class="main-rko-content-text">Подпись усиленной подписью</p>
+                </div>
+            </div>
+            <div class="main-rko-content">
+                <div class="main-rko-content-column">
+                    <div class="main-rko-content-image-block">
+                        <img class="main-rko-content-image"
+                             src="images/icons/check.svg"
+                             alt="check">
+                    </div>
+                    <p class="main-rko-content-title">Бесплатно</p>
+                    <p class="main-rko-content-text">Подключение и обслуживание</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="main-internet-bank-description">
+    <div class="main-container">
+        <div class="main-internet-bank-description-row">
+            <div class="main-internet-bank-description-column main-internet-bank-description-column-left">
+                <p class="main-internet-bank-description-column-title">УДОБСТВО</p>
+                <p class="main-internet-bank-description-column-text">Возможность работы в сиcтеме из любой точки мира,
+                    с любого современного компьютера с доступом в Интернет. Все ваши счета, транзакции, платежи в
+                    госслужбы - все под рукой. <br/>Создайте шаблоны, следите за балансом и совершайте платежи в удобной
+                    вам
+                    форме</p>
+            </div>
+            <div class="main-internet-bank-description-column main-internet-bank-description-column-middle">
+                <p class="main-internet-bank-description-column-title">ОПТИМИЗАЦИЯ</p>
+                <p class="main-internet-bank-description-column-text">Оптимизация рабочего времени сотрудников
+                    бухгалтерии, отсутствие необходимости посещать РНКО лично. Данные настолько удобно поданы, что вы
+                    сами сможете на равне с бухгалтерией просматривать и изучать их</p>
+            </div>
+            <div class="main-internet-bank-description-column main-internet-bank-description-column-right">
+                <div class="main-internet-bank-description-column-right-row">
+                    <p class="main-internet-bank-description-column-title">ЭКОНОМИЯ</p>
+                    <p class="main-internet-bank-description-column-text">Сокращение транспортных расходов</p>
+                </div>
+                <div class="main-internet-bank-description-column-right-row">
+                    <p class="main-internet-bank-description-column-title">ПРОДУКТИВНОСТЬ</p>
+                    <p class="main-internet-bank-description-column-text">Повышение оперативности управления денежными
+                        средствами, находящимися на счетах в РНКО</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="main-internet-bank-how-to-connect-internet-bank">
+    <div class="main-container">
+        <div class="main-row">
+            <div class="main-title-block">
+                <h2 class="main-title">КАК ПОДКЛЮЧИТЬ <br/>ИНТЕРНЕТ БАНК?</h2>
+            </div>
+        </div>
+        <div class="main-internet-bank-how-to-connect-internet-bank-row">
+            <div class="main-internet-bank-how-to-connect-internet-bank-column main-internet-bank-how-to-connect-internet-bank-column-left">
+                <p class="main-internet-bank-how-to-connect-internet-bank-column-title">ПОДАЙТЕ ЗАЯВКУ</p>
+                <p class="main-internet-bank-how-to-connect-internet-bank-column-text">Заполните заявление на открытие
+                    счета</p>
+                <div class="main-internet-bank-how-to-connect-internet-bank-column-bottom-block">
+                    <p class="main-internet-bank-how-to-connect-internet-bank-column-number">1</p>
+                    <img src="images/banners/arrow-banner.png"
+                         class="main-internet-bank-how-to-connect-internet-bank-column-image" alt=""/>
+                </div>
+            </div>
+            <div class="main-internet-bank-how-to-connect-internet-bank-column main-internet-bank-how-to-connect-internet-bank-column-middle">
+                <p class="main-internet-bank-how-to-connect-internet-bank-column-title">ПОДПИШИТЕ ДОГОВОР</p>
+                <p class="main-internet-bank-how-to-connect-internet-bank-column-text">На подключение системы
+                    «Клиент-Банк»</p>
+                <div class="main-internet-bank-how-to-connect-internet-bank-column-bottom-block">
+                    <p class="main-internet-bank-how-to-connect-internet-bank-column-number">2</p>
+                    <img src="images/banners/letter-banner.png"
+                         class="main-internet-bank-how-to-connect-internet-bank-column-image" alt=""/>
+                </div>
+            </div>
+            <div class="main-internet-bank-how-to-connect-internet-bank-column main-internet-bank-how-to-connect-internet-bank-column-right">
+                <p class="main-internet-bank-how-to-connect-internet-bank-column-title">ПОЛУЧИТЕ КЛЮЧИ</p>
+                <p class="main-internet-bank-how-to-connect-internet-bank-column-text">Пользуйтесь всеми возможностями
+                    системы</p>
+                <div class="main-internet-bank-how-to-connect-internet-bank-column-bottom-block">
+                    <p class="main-internet-bank-how-to-connect-internet-bank-column-number">3</p>
+                    <img src="images/banners/keys-banner.png"
+                         class="main-internet-bank-how-to-connect-internet-bank-column-image" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="main-legal-entities-and-individual-entrepreneurs-opening-account">
+    <div class="main-container">
+        <div class="main-row">
+            <div class="main-title-block">
+                <h2 class="main-title">ЗАЯВКА</h2>
+            </div>
+        </div>
+        <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-row">
+            <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-column main-legal-entities-and-individual-entrepreneurs-opening-account-column-left">
+                <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row">
+                    <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">Деятельность</p>
+                    <label for="yl"
+                           class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <input
+                                type="radio"
+                                class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-activity"
+                                name="type" id="yl" value="yl"/>Юридическре лицо
+                    </label>
+                    <label for="ip"
+                           class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <input
+                                type="radio"
+                                class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-activity"
+                                name="type" id="ip" value="ip"/>Индивудуальный предприниматель
+                    </label>
+                </div>
+
+                <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row">
+                    <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">ИНН</p>
+                    <div class="warning" id="inn_warning"></div>
+                    <label for="inn"
+                           class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <input
+                                type="number"
+                                class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-inn"
+                                name="inn" id="inn" placeholder="Введите номер ИНН"/>
+                    </label>
+                </div>
+
+                <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-3">
+                    <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">Электронная
+                        почта</p>
+                    <div class="warning" id="email_warning"></div>
+                    <label for="email"
+                           class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <input
+                                type="email"
+                                class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-email"
+                                name="email" id="email" placeholder="Введите эл.почту"/>
+                    </label>
+                </div>
+
+                <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-3">
+                    <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">Контактный
+                        номер</p>
+                    <div class="warning" id="phone_warning"></div>
+                    <label for="phone"
+                           class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <input
+                                type="tel"
+                                class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-phone"
+                                name="phone" id="phone" placeholder="Введите номер для связи" pattern="[0-9]{11}"
+                                required/>
+                    </label>
+                </div>
+
+                <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-4">
+                    <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">Сообщение</p>
+                    <div class="warning" id="message_warning"></div>
+                    <label for="message"
+                           class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <textarea name="message"
+                                  class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-textarea-message"
+                                  id="message" cols="100" rows="5" placeholder="Введите сообщение"></textarea>
+                    </label>
+                    <div class="message-length-block"><p id="message-length">0</p>
+                        <p>/340</p></div>
+                    <div class="message-button-block">
+                        <button type="button" class="message-button" name="message-button" id="message-button"
+                                value="send">Отправить
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- The Modal -->
+<div id="myModal" class="modal connectWithUs">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-content-form-row">
+            <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-row">
+                <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-column main-legal-entities-and-individual-entrepreneurs-opening-account-column-left">
+
+                    <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-1">
+                        <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">
+                            Имя</p>
+                        <div class="warning" id="name_warning"></div>
+                        <label for="name"
+                               class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                            <input type="text"
+                                   class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input"
+                                   name="name" id="name" placeholder="Введите имя"/>
+                        </label>
+                    </div>
+                    <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-1">
+                        <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">
+                            Фамилия</p>
+                        <div class="warning" id="surnname_warning"></div>
+                        <label for="surnname"
+                               class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                            <input type="text"
+                                   class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input"
+                                   name="surnname" id="surnname" placeholder="Введите фамилию"/>
+                        </label>
+                    </div>
+                    <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-2">
+                        <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">
+                            Отчество</p>
+                        <div class="warning" id="middleName_warning"></div>
+                        <label for="middleName"
+                               class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                            <input type="text"
+                                   class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input"
+                                   name="middleName" id="middleName" placeholder="Введите отчество"/>
+                        </label>
+                    </div>
+
+                    <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-3">
+                        <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">
+                            Электронная
+                            почта</p>
+                        <div class="warning" id="email_warning"></div>
+                        <label for="email"
+                               class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                            <input
+                                    type="email"
+                                    class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-email"
+                                    name="email" id="email" placeholder="Введите эл.почту"/>
+                        </label>
+                    </div>
+
+                    <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-3">
+                        <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">
+                            Контактный
+                            номер</p>
+                        <div class="warning" id="phone_warning"></div>
+                        <label for="phone"
+                               class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                            <input
+                                    type="tel"
+                                    class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-input-phone"
+                                    name="phone" id="phone" placeholder="Введите номер для связи"
+                                    pattern="[0-9]{11}"
+                                    required/>
+                        </label>
+                    </div>
+
+                    <div class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-row row-4">
+                        <p class="main-legal-entities-and-individual-entrepreneurs-opening-account-title">
+                            Сообщение</p>
+                        <div class="warning" id="message_warning"></div>
+                        <label for="message"
+                               class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-title">
+                        <textarea name="message"
+                                  class="main-legal-entities-and-individual-entrepreneurs-opening-account-activity-textarea-message"
+                                  id="message" cols="100" rows="5" placeholder="Введите сообщение"></textarea>
+                        </label>
+                        <div class="message-length-block"><p id="message-length">0</p>
+                            <p>/340</p></div>
+                        <div class="message-button-block">
+                            <button type="button" class="message-button" name="message-button"
+                                    id="message-button"
+                                    value="send">Подтвердить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer>
+    <section id="main-footer">
+        <div class="main-container">
+            <div class="main-row main-footer-top">
+                <div class="main-footer-phone">
+                    <p class="main-footer-phone-title"><a href="tel:+74242245858">(4242) 24-58-58</a></p>
+                    <p class="main-footer-phone-description">Головной офис</p>
+                </div>
+                <div class="main-footer-mail">
+                    <p class="main-footer-mail-title"><a href="mailto:info@rnko-kholmsk.ru">info@rnko-kholmsk.ru</a></p>
+                    <p class="main-footer-mail-description">Электронная почта</p>
+                </div>
+                <div class="main-footer-map">
+                    <a href="#" class="main-footer-map-link">Офисы на карте</a>
+                </div>
+            </div>
+            <div class="main-row main-footer-bottom">
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Лицо ответственное за полноту, достоверность и актуальность
+                        публикуемых на сайте сведений:</p>
+                    <p class="main-footer-column-text">Начальник отдела технического и программного обеспечения Самсонов
+                        Иван Николаевич</p>
+                    <p class="main-footer-column-text  main-footer-column-text-bottom">Тел.:<a
+                            class="main-footer-column-link" href="tel:+74242241786">
+                        +7 (4242) 24 17 86</a> (вн. 552)</p>
+                    <p class="main-footer-column-text">Эл. почта:<a class="main-footer-column-link"
+                                                                    href="mailto:info@rnko-kholmsk.ru">
+                        info@rnko-kholmsk.ru</a></p>
+                    <img src="images/logo-footer.svg" alt="logo">
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для физических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rko.html">РКО</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="transfers.html">Переводы</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="currency-exchange.html">Обмен валют</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="service-payments.html">Платежи за услуги</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rental-of-safes.html">Аренда сейфов</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для юридических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="legal-entities-and-individual-entrepreneurs.html">РКО</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="foreign-economic-activity-for-business.html">ВЭД для бизнеса</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="yl-rental-of-safes.html">Аренда сейфов</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="escort-services.html">Сопровождение по 115-ФЗ</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">О РНКО</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="about-rnko.html">О Нас</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="blog.html">Новости</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_FATCA.docx" download="Анкета_FATCA">FATCA</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_CRS.docx" download="Анкета_CRS">CRS</a></p>
+                    <p class="main-footer-column-title  main-footer-column-title-bottom">Финансовым институтам</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="opening-loro-accounts.html">Открытие счетов ЛОРО</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-mobile-footer">
+        <div class="main-container">
+            <div class="main-row main-footer-top">
+                <div class="main-footer-phone">
+                    <p class="main-footer-phone-title"><a href="tel:+74242245858">(4242) 24-58-58</a></p>
+                    <p class="main-footer-phone-description">Головной офис</p>
+                </div>
+                <div class="main-footer-mail">
+                    <p class="main-footer-mail-title"><a href="mailto:info@rnko-kholmsk.ru">info@rnko-kholmsk.ru</a></p>
+                    <p class="main-footer-mail-description">Электронная почта</p>
+                </div>
+                <div class="main-footer-map">
+                    <a href="#" class="main-footer-map-link">Офисы на карте</a>
+                </div>
+            </div>
+            <div class="main-row main-footer-bottom">
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для физических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rko.html">РКО</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="transfers.html">Переводы</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="currency-exchange.html">Обмен валют</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="service-payments.html">Платежи за услуги</a>
+                    </p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="rental-of-safes.html">Аренда сейфов</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Для юридических лиц</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="legal-entities-and-individual-entrepreneurs.html">РКО</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="foreign-economic-activity-for-business.html">ВЭД для бизнеса</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="yl-rental-of-safes.html">Аренда сейфов</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="escort-services.html">Сопровождение по 115-ФЗ</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">О РНКО</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="about-rnko.html">О Нас</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="blog.html">Новости</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_FATCA.docx" download="Анкета_FATCA">FATCA</a></p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="documents/footer/Анкета_CRS.docx" download="Анкета_CRS">CRS</a></p>
+                    <p class="main-footer-column-title  main-footer-column-title-bottom">Финансовым институтам</p>
+                    <p class="main-footer-column-text"><a class="main-footer-column-link" href="opening-loro-accounts.html">Открытие счетов ЛОРО</a></p>
+                </div>
+                <div class="main-footer-column">
+                    <p class="main-footer-column-title">Лицо ответственное за полноту, достоверность и актуальность
+                        публикуемых на сайте сведений:</p>
+                    <p class="main-footer-column-text">Начальник отдела технического и программного обеспечения Самсонов
+                        Иван Николаевич</p>
+                    <div class="main-mobile-footer-row">
+                        <div class="main-mobile-footer-column main-mobile-footer-column-left">
+                            <p class="main-footer-column-text  main-footer-column-text-bottom">Тел.:<a
+                                    class="main-footer-column-link" href="tel:+74242241786">
+                                +7 (4242) 24 17 86</a> (вн. 552)</p>
+                            <p class="main-footer-column-text">Эл. почта:<a class="main-footer-column-link"
+                                                                            href="mailto:info@rnko-kholmsk.ru">
+                                info@rnko-kholmsk.ru</a></p>
+                        </div>
+                        <div class="main-mobile-footer-column main-mobile-footer-column-right">
+                            <img src="images/logo-footer.svg" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="js/sliders/slick-slider.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

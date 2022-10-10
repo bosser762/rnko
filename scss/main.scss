@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+// 1. Settings
+@import
+"settings/global";
+
+// 2. Design Tokens
+@import
+"design-tokens/colors",
+"design-tokens/fonts",
+"design-tokens/media-queries",
+"design-tokens/spacing",
+"design-tokens/typography";
+
+// 3. Generic
+@import
+"generic/box-sizing";
+
+// 4. Elements
+@import
+"elements/forms",
+"elements/headings",
+"elementsimages",
+"elements/links",
+"elements/lists";
+
+// 5. Skeleton
+@import
+"skeleton/layouts",
+"skeleton/objects";
+
+// 6. Components
+@import
+"components/accordion",
+"components/sliders",
+"components/card";
+
+
+// 7. Shame
+@import
+"shame";

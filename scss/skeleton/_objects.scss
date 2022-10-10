@@ -1,0 +1,177 @@
+/***NAVBAR LINE***/
+@use "../settings/global";
+
+.main-navbar-line {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: 1px;
+  background: #D9D9D9;
+}
+
+.main-currency-exchange-converter-column .exchange-rates-column:not(:last-child) {
+  border-right: none;
+}
+
+.exchange-rates-column:not(:last-child),
+.main-currency-exchange-converter-column .exchange-rates-column:nth-child(odd) {
+  border-right: 1px solid #D9D9D9;
+}
+
+
+.main-footer-bottom {
+  border-top: 1px solid #D9D9D9;
+}
+
+#main-currency-exchange-converter .main-container {
+  padding-bottom: 80px;
+}
+
+.main-dimensions-selection-form-column-left-image-block .main-dimensions-selection-form-column-left-image-block-check-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 15% auto -15% auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 27px 80px rgba(0, 0, 0, 0.07), 0px 6.0308px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.79553px 5.32008px rgba(0, 0, 0, 0.0282725);
+}
+
+.main-dimensions-selection-form-column-left-image-block.active .main-dimensions-selection-form-column-left-image-block-check-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 15% auto -15% auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 27px 80px rgba(0, 0, 0, 0.07), 0px 6.0308px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.79553px 5.32008px rgba(0, 0, 0, 0.0282725);
+}
+
+.main-navbar-main-list-sublist-item-icon {
+  font-size: 20px;
+  display: inline-block;
+  -webkit-transform: scale(.5, 1);
+  -moz-transform: scale(.5, 1);
+  -ms-transform: scale(.5, 1);
+  --transform: scale(.5, 1);
+  transform: scale(.5, 1);
+}
+
+.separator-mt-16 {
+  width: 100%;
+  margin: 16px 0 0 0;
+}
+
+.separator-mt-52 {
+  width: 100%;
+  margin: 52px 0 0 0;
+}
+
+.hamburger-menu {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  display: block;
+  position: absolute;
+  margin: 2px;
+  height: 2px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -webkit-transition: 0.35s all ease-in-out;
+}
+
+.hamburger-menu.open{
+  background: #F4F4F4;
+  border-radius: 50%;
+
+  & span{
+    width: 10px;
+  }
+}
+
+.hamburger-menu :nth-child(1) {
+  top: 2px;
+  transform-origin: left center;
+}
+
+.hamburger-menu :nth-child(2) {
+  top: 10px;
+  transform-origin: left center;
+}
+
+.hamburger-menu :nth-child(3) {
+  top: 18px;
+  transform-origin: left center;
+}
+
+.hamburger-menu.open :nth-child(1) {
+  top: 6px;
+  left: 7px;
+  transform: rotate(45deg);
+  background: #7A7A7A;
+}
+
+.hamburger-menu.open :nth-child(2) {
+  top: 15px;
+  opacity: 0;
+}
+
+.hamburger-menu.open :nth-child(3) {
+  left: 7px;
+  top: 13px;
+  transform: rotate(-45deg);
+  background: #7A7A7A;
+}
+
+.overlay {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  top: 110px;
+  left: 0;
+  background: #FFFFFF;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.overlay.open {
+  z-index: 1;
+  height: 100%;
+}
+
+.overlay-content {
+  padding: 2rem 0;
+  opacity: 0;
+  position: relative;
+  //transform: translateY(-50%);
+  text-align: left;
+  transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+}
+
+.show-content{
+  opacity: 1;
+}
+
