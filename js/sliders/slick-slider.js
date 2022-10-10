@@ -69,7 +69,7 @@ $('.slider-nav').on('beforeChange', function (event, slick, currentSlide, nextSl
 
 // On before slide change
 $('.slider-nav').on('afterChange', function (event, slick, currentSlide) {
-    var backgorund = ['url("https://bosser762.github.io/rnko.github.io/images/illustrations/pomosh_v_rabote.png") no-repeat center left, linear-gradient(180deg, #EBFAF1 0%, #CCE7D6 100%)','url("https://bosser762.github.io/rnko.github.io/images/illustrations/popolnenie_kart.png") no-repeat center left, linear-gradient(180deg, #F7EBE7 0%, #E7CFC7 100%)']
+    var backgorund = ['url("https://bosser762.github.io/rnko/images/illustrations/pomosh_v_rabote.png") no-repeat center left, linear-gradient(180deg, #EBFAF1 0%, #CCE7D6 100%)','url("https://bosser762.github.io/rnko/images/illustrations/popolnenie_kart.png") no-repeat center left, linear-gradient(180deg, #F7EBE7 0%, #E7CFC7 100%)']
     $('#main-slider').css('background', backgorund[currentSlide]);
     //console.log('index=' + currentSlide);
     $('.slider-dots-box button').html('');
